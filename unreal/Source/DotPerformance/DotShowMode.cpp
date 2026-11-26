@@ -1007,9 +1007,12 @@ void ADotShowMode::TickMasterAudio()
         if (int32(Sequence - AudioSequence) <= 0) continue;
         AudioSequence = Sequence;
         LastAudioPacketAt = Now;
-        if (MasterWave->GetAvailableAudioByteCount() > int32(Rate * FrameBytes / 5))
-            MasterWave->ResetAudio();
-        MasterWave->QueueAudio(Packet + Header, Bytes - Header);
+        const int32 PayloadBytes = Bytes - Header;
+        const int32 BufferLimitBytes = int32(Rate * FrameBytes / 5);
+        // The audio renderer consumes the procedural queue. Leave its pending
+        // frames intact when a burst fills the buffer, and resume writes as it drains.
+        if (MasterWave->GetAvailableAudioByteCount() <= BufferLimitBytes - PayloadBytes)
+            MasterWave->QueueAudio(Packet + Header, PayloadBytes);
         float Sum = 0;
         for (int Offset = Header; Offset + 3 < Bytes; Offset += 4)
         {
