@@ -4,6 +4,7 @@ import { bindDotVoice } from './dj-voice.js';
 import { createNowRecord } from './now-record.js';
 import { createVirtualDJOutput } from './virtualdj-audio.js';
 import { createTalkMix } from './talk-mix.js';
+import { upNext } from './up-next.mjs';
 const clamp = (value,min,max) => Math.max(min,Math.min(value,max));
 function clockText(seconds) {
   const whole=Math.floor(seconds);
@@ -430,7 +431,8 @@ function tick() {
   frame.level=getNativeLevel();
   if(hearStream&&usingNativeOutput)syncStreamAudioControls();
   const currentIndex=nativeState?.order.findIndex(track=>track.id===frame.currentRecord)??-1;
-  const queued=follow?.program?.nextTrack?.id ? follow.program.nextTrack
+  const programNext=follow?.program?.nextTrack;
+  const queued=programNext?.id&&programNext.id!==frame.currentRecord ? programNext
     : nativeState?.active && currentIndex>=0 ? nativeState.order[currentIndex+1] : null;
   const next=queued ? liveLibrary.find(item=>item.id===queued.id&&item.artworkUrl)||queued : null;
   const talk=talkVoice.pose(clock);
@@ -458,17 +460,11 @@ function tick() {
   by('now-progress').hidden=frame.trackProgress<0;
   by('now-progress').value=Math.max(0,frame.trackProgress);
   setText(by('now-time'),[frame.trackElapsed,frame.trackDuration].map(value=>value===null?'—':clockText(value)).join(' / '));
-  const stagedIndex=nativeState?.staged?.findIndex(track=>track.id===frame.currentRecord)??-1;
-  const staged=stagedIndex>=0 ? nativeState.staged[stagedIndex+1] : null;
-  const upcoming=next?.id!==frame.currentRecord ? next : null;
-  const suggested=upcoming||staged;
-  const continuing=nativeState?.rolling?.status;
-  const waiting=frame.mixing||Boolean(continuing);
-  const nextLabel=[suggested?.title,suggested?.artist].filter(Boolean).join(' · ')||
-    (continuing==='held'?'No compatible track found':continuing?'Finding a track':'End of queue');
-  by('now-next').hidden=!suggested?.title&&!waiting;
-  setText(by('now-next-track'),nextLabel);
-  const transition=!upcoming?(staged?'Preparing':''):frame.mixing&&frame.transitionIn!==null?'Mixing now':
+  const nextDisplay=upNext({currentId:frame.currentRecord,committed:next,staged:nativeState?.staged,
+    rolling:nativeState?.rolling?.status,active:nativeState?.active,playing:frame.playing,mixing:frame.mixing});
+  by('now-next').hidden=!nextDisplay.visible;
+  setText(by('now-next-track'),nextDisplay.label);
+  const transition=!nextDisplay.upcoming?(nextDisplay.preparing?'Preparing':''):frame.mixing&&frame.transitionIn!==null?'Mixing now':
     frame.transitionIn===null?'':frame.transitionIn>0?`Mix in ${clockText(Math.ceil(frame.transitionIn))}`:'Mix due';
   by('now-transition').hidden=!transition;
   setText(by('now-transition'),transition);
