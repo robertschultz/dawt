@@ -249,7 +249,7 @@ const subtitle = $('subtitle');
 const background = $('background');
 const layouts = {
   title: { x: 182, y: 268, width: 992, height: 172, font: '700 200px Fredoka' },
-  subtitle: { x: 182, y: 466, width: 992, height: 54, font: '400 58px Manrope' }
+  subtitle: { x: 182, y: 466, width: 992, height: 33, font: '400 58px Manrope' }
 };
 
 function loadArt(data) {
@@ -270,10 +270,9 @@ function line(text, layout, color) {
     ctx.restore();
     return;
   }
-  const scale = layout.height / height;
-  const fit = Math.min(scale, layout.width / width);
-  ctx.translate(layout.x + box.actualBoundingBoxLeft * fit, layout.y + box.actualBoundingBoxAscent * scale);
-  ctx.scale(fit, scale);
+  const scale = Math.min(layout.height / height, layout.width / width);
+  ctx.translate(layout.x + box.actualBoundingBoxLeft * scale, layout.y + box.actualBoundingBoxAscent * scale);
+  ctx.scale(scale, scale);
   ctx.fillStyle = color;
   ctx.fillText(text, 0, 0);
   ctx.restore();
@@ -303,9 +302,8 @@ function drawOriginal(mask, layout, color) {
   inkCtx.globalCompositeOperation = 'source-in';
   inkCtx.fillStyle = color;
   inkCtx.fillRect(0, 0, mask.width, mask.height);
-  const height = layout.height + 4;
-  const width = Math.min(layout.width + 4, height * mask.width / mask.height);
-  ctx.drawImage(inkCanvas, layout.x - 2, layout.y - 2, width, height);
+  const scale = Math.min((layout.height + 4) / mask.height, (layout.width + 4) / mask.width);
+  ctx.drawImage(inkCanvas, layout.x - 2, layout.y - 2, mask.width * scale, mask.height * scale);
 }
 
 const readyOriginals = Promise.all(Object.values(originals).map(async entry => {
