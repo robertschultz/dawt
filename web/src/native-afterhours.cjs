@@ -49,10 +49,12 @@ function publicScan(scan){
 }
 function publicState(session){
   const index=session.index;
+  const offset=session.active&&Number.isInteger(index) ? Math.max(0,index-2) : 0;
+  const staged=session.queuedUpdate;
   const transition=session.active&&Number.isInteger(index)&&index>=0
     ? session.mixPlans?.[index] : null;
   const nextId=session.active&&Number.isInteger(index)&&index>=0?session.order?.[index+1]?.id:null;
-  return {id:session.id,phase:session.phase,active:session.active,index:session.index,
+  return {id:session.id,phase:session.phase,active:session.active,index:Number.isInteger(index)?index-offset:index,
     message:session.message,startedAt:session.startedAt,planId:session.executionPlan?.id||null,
     blendFrom:session.phase==='mixing' ? activityText(session.order?.[index]?.title,120) : '',
     blendTitle:session.phase==='mixing' ? activityText(session.order?.find(t=>t.id===session.activeHandoff?.to)?.title ||
@@ -68,8 +70,11 @@ function publicState(session){
     events:(session.events||[]).slice(-14).map(row=>({at:row.at,kind:activityText(row.kind,30),text:activityText(row.text)})),
     analysis:session.backgroundAnalysis&&{status:session.backgroundAnalysis.status,message:session.backgroundAnalysis.message},
     startup:session.startup&&{status:session.startup.status},
-    queuedIds:(session.queuedUpdate?.tracks||session.order||[]).slice(0,12).map(track=>track.id),
-    order:(session.order||[]).slice(0,12).map(record),
+    rolling:session.active&&session.rollingQueue&&{status:session.rollingQueue.status},
+    staged:staged&&['needs-analysis','analyzing','ready'].includes(staged.status)
+      ? staged.tracks.slice(offset,offset+12).map(record) : [],
+    queuedIds:(staged?.tracks||session.order||[]).slice(offset,offset+12).map(track=>track.id),
+    order:(session.order||[]).slice(offset,offset+12).map(record),
     candidates:(session.candidates||[]).slice(0,120).map(record)};
 }
 function getActivity(){
@@ -99,7 +104,7 @@ function getState(){
         sessionPhase:p.sessionPhase,transitionInSeconds:p.transitionInSeconds,clock:p.clock,
         positionSeconds:p.positionSeconds,durationSeconds:p.durationSeconds,
         nextTrack:p.nextTrack&&record(p.nextTrack),
-        library:(p.library||[]).slice(0,100).map(record)},
+        library:(p.library||[]).filter((track,index)=>index<100||track.id===p.current).map(record)},
       telemetry:{sampledAt:t?.sampledAt,crossfader:t?.crossfader,decks:t?.decks?.slice(0,2).map(deckRecord)}};
   })().finally(()=>statusRequest=null);
   return statusRequest;
@@ -130,7 +135,7 @@ async function run(input) {
       const measured=seconds===null&&blendSeconds===null;
       await post('/api/set-session',{action:'plan',ids,seconds:seconds??(measured?30:60),excerptBars:0,
         maxTempoShift:current.maxTempoShift??8,mixStyle:measured?'phrase':'quick',quickBlendSeconds:blendSeconds});
-      return publicState(await post('/api/set-session',{action:'start',prepareWhilePlaying:measured}));
+      return publicState(await post('/api/set-session',{action:'start',prepareWhilePlaying:measured,rollingQueue:true}));
     }
     if(input.action==='stop'||input.action==='takeover'){
       return publicState(await post('/api/set-session',{action:input.action}));

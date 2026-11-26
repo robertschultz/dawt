@@ -429,7 +429,9 @@ function tick() {
   const frame=liveFrame();
   frame.level=getNativeLevel();
   if(hearStream&&usingNativeOutput)syncStreamAudioControls();
-  const queued=follow?.program?.nextTrack?.id ? follow.program.nextTrack : nativeState?.active ? upcomingRecords()[0] : null;
+  const currentIndex=nativeState?.order.findIndex(track=>track.id===frame.currentRecord)??-1;
+  const queued=follow?.program?.nextTrack?.id ? follow.program.nextTrack
+    : nativeState?.active && currentIndex>=0 ? nativeState.order[currentIndex+1] : null;
   const next=queued ? liveLibrary.find(item=>item.id===queued.id&&item.artworkUrl)||queued : null;
   const talk=talkVoice.pose(clock);
   talkMix(Boolean(talk?.duckMusic),Boolean(talk?.audibleOutput));
@@ -456,10 +458,17 @@ function tick() {
   by('now-progress').hidden=frame.trackProgress<0;
   by('now-progress').value=Math.max(0,frame.trackProgress);
   setText(by('now-time'),[frame.trackElapsed,frame.trackDuration].map(value=>value===null?'—':clockText(value)).join(' / '));
+  const stagedIndex=nativeState?.staged?.findIndex(track=>track.id===frame.currentRecord)??-1;
+  const staged=stagedIndex>=0 ? nativeState.staged[stagedIndex+1] : null;
   const upcoming=next?.id!==frame.currentRecord ? next : null;
-  by('now-next').hidden=!upcoming?.title;
-  setText(by('now-next-track'),[upcoming?.title,upcoming?.artist].filter(Boolean).join(' · '));
-  const transition=frame.mixing?'Mixing now':
+  const suggested=upcoming||staged;
+  const continuing=nativeState?.rolling?.status;
+  const waiting=frame.mixing||Boolean(continuing);
+  const nextLabel=[suggested?.title,suggested?.artist].filter(Boolean).join(' · ')||
+    (continuing==='held'?'No compatible track found':continuing?'Finding a track':'End of queue');
+  by('now-next').hidden=!suggested?.title&&!waiting;
+  setText(by('now-next-track'),nextLabel);
+  const transition=!upcoming?(staged?'Preparing':''):frame.mixing&&frame.transitionIn!==null?'Mixing now':
     frame.transitionIn===null?'':frame.transitionIn>0?`Mix in ${clockText(Math.ceil(frame.transitionIn))}`:'Mix due';
   by('now-transition').hidden=!transition;
   setText(by('now-transition'),transition);

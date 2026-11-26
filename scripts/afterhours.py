@@ -7,7 +7,8 @@ import subprocess
 import time
 from urllib.request import build_opener, ProxyHandler
 
-PROJECT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[1]
+PROJECT = ROOT / 'unreal'
 LOCAL_ENGINE_CONFIG = PROJECT / 'Saved' / 'Afterhours' / 'engine-checkout'
 VDJ = Path('/Applications/VirtualDJ.app')
 OPENER = build_opener(ProxyHandler({}))
@@ -66,11 +67,11 @@ def ensure_native_audio(state):
     if not VDJ.is_dir():
         return 'VirtualDJ is unavailable on this Mac.'
     subprocess.run(['/usr/bin/open','-g','-a',str(VDJ)],check=True)
-    tool = PROJECT/'Tools'/'VirtualDJAudio'
+    tool = ROOT/'scripts'/'virtualdj-audio'
     helper = state/'Dot Afterhours VirtualDJ Audio.app'
     binary = helper/'Contents'/'MacOS'/'VirtualDJAudio'
     if not binary.is_file() or any((tool/name).stat().st_mtime > binary.stat().st_mtime
-        for name in ('VirtualDJAudio.swift','Info.plist','build.sh')):
+        for name in ('virtualdj-audio.swift','info.plist','build.sh')):
         subprocess.run([str(tool/'build.sh')],check=True)
     # Launch Services reuses a running helper and translates the per-app audio permission prompt.
     subprocess.run(['/usr/bin/open','-g','--stdout',str(state/'vdj-audio.log'),

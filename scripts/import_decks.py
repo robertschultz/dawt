@@ -1,6 +1,11 @@
+import re
 """Import the matching Blender DJ deck and record into the Dot Unreal project."""
 from pathlib import Path
 import unreal as ue
+
+def asset_name(name, extension):
+    return re.sub(r'(?<=[a-z0-9])(?=[A-Z])', '-', name).lower() + extension
+
 
 project = Path(ue.Paths.convert_relative_path_to_full(ue.Paths.project_dir()))
 tools = ue.AssetToolsHelpers.get_asset_tools()
@@ -60,7 +65,7 @@ for name in ('DotDecks','DotRecord'):
     for key,value in dict(combine_meshes=True,auto_generate_collision=False,
                           generate_lightmap_u_vs=False,normal_import_method=ue.FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS).items():
         settings.set_editor_property(key,value)
-    for key,value in dict(filename=str(project/'AssetSource'/f'{name}.fbx'),destination_path='/Game/Dot/Meshes',
+    for key,value in dict(filename=str(project.parent / 'assets' / asset_name(name, '.fbx')),destination_path='/Game/Dot/Meshes',
                           destination_name=name,automated=True,replace_existing=True,save=True,options=options).items():
         task.set_editor_property(key,value)
     tools.import_asset_tasks([task])

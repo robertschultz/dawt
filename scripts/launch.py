@@ -13,7 +13,8 @@ import webbrowser
 
 from afterhours import ensure_music, ensure_native_audio
 
-project = Path(__file__).resolve().parent.parent
+root = Path(__file__).resolve().parent.parent
+project = root / 'unreal'
 state = project / 'Saved' / 'DotSession'
 state.mkdir(parents=True, exist_ok=True)
 player_port, engine_port = 8170, 8172
@@ -33,7 +34,7 @@ def managed_pid(name, marker):
         args = subprocess.check_output(
             ['/bin/ps', '-ww', '-p', str(pid), '-o', 'command='], text=True, stderr=subprocess.DEVNULL
         ).strip()
-        return pid if marker in args and str(project) in args else None
+        return pid if marker in args and str(root) in args else None
     except (FileNotFoundError, ValueError, subprocess.CalledProcessError):
         return None
 
@@ -45,7 +46,7 @@ def start(name, command):
     return p
 
 if args.stop:
-    for name, pattern in [('engine','DotPerformance.uproject'), ('signal','Signal.cjs'),
+    for name, pattern in [('engine','DotPerformance.uproject'), ('signal','signal.cjs'),
                           ('vdj-audio','VirtualDJ Audio.app')]:
         pid = managed_pid(name, pattern)
         if pid:
@@ -73,7 +74,7 @@ def serving():
         return False
 
 if not serving():
-    server = start('signal', [node, str(project / 'Web' / 'Signal.cjs'), str(player_port), str(engine_port)])
+    server = start('signal', [node, str(root / 'web' / 'signal.cjs'), str(player_port), str(engine_port)])
     for _ in range(50):
         if serving() or server.poll() is not None:
             break

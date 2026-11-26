@@ -10,7 +10,7 @@ const [result,template,css,show,showTemplate,showStyle] = await Promise.all([
   readFile(abs('dj.html'),'utf8'),readFile(abs('dj.css'),'utf8'),
   bundle('unreal.js',{write:false,platform:'browser',format:'iife'}),
   readFile(abs('shell.html'),'utf8'),readFile(abs('style.css'),'utf8'),
-  bundle('server.cjs',{outfile:abs('../Signal.cjs'), platform:'node',format:'cjs',external:['bufferutil','utf-8-validate']})
+  bundle('server.cjs',{outfile:abs('../signal.cjs'), platform:'node',format:'cjs',external:['bufferutil','utf-8-validate']})
 ]);
 const fields={STYLE:css,SCRIPT:result.outputFiles[0].text};
 await writeFile(abs('../dj.html'),template.replace(/\{\{([A-Z]+)\}\}/g,(_,key)=>fields[key]));

@@ -1,3 +1,4 @@
+import re
 """Build the editable Alive Pyramid set and its Unreal exchange assets in Blender."""
 import json
 from math import cos, pi, sin
@@ -6,7 +7,11 @@ from pathlib import Path
 import bpy
 from mathutils import Vector
 
-DESTINATION = Path(__file__).resolve().parents[1] / "AssetSource" / "Warehouse"
+def asset_name(name, extension):
+    return re.sub(r'(?<=[a-z0-9])(?=[A-Z])', '-', name).lower() + extension
+
+
+DESTINATION = Path(__file__).resolve().parents[1] / "assets" / "warehouse"
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
 scene.name = "Daft Punk Pyramid · Coachella / Alive"
@@ -306,13 +311,13 @@ for name, loc, target, color, energy, size in [
     ob.rotation_euler=(Vector(target)-ob.location).to_track_quat('-Z','Y').to_euler()
 
 bpy.context.preferences.filepaths.save_version=0
-bpy.ops.wm.save_as_mainfile(filepath=str(DESTINATION/"DotAlivePyramid.blend"), compress=True)
+bpy.ops.wm.save_as_mainfile(filepath=str(DESTINATION/"dot-alive-pyramid.blend"), compress=True)
 
 for collection, filename in ((stage,"VenueAlivePyramid"),(podium,"AlivePyramidPodium")):
     bpy.ops.object.select_all(action='DESELECT')
     for obj in collection.objects:
         obj.select_set(True)
-    bpy.ops.export_scene.fbx(filepath=str(DESTINATION/(filename+".fbx")), use_selection=True,
+    bpy.ops.export_scene.fbx(filepath=str(DESTINATION/asset_name(filename, ".fbx")), use_selection=True,
         object_types={'MESH'}, apply_unit_scale=True, apply_scale_options='FBX_SCALE_UNITS',
         axis_forward='-Y', axis_up='Z', bake_anim=False, add_leaf_bones=False, mesh_smooth_type='FACE')
-(DESTINATION/"AlivePyramidMaterials.json").write_text(json.dumps(palette, indent=2)+"\n")
+(DESTINATION/"alive-pyramid-materials.json").write_text(json.dumps(palette, indent=2)+"\n")

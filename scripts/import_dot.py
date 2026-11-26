@@ -1,5 +1,10 @@
+import re
 from pathlib import Path
 import unreal as ue
+
+def asset_name(name, extension):
+    return re.sub(r'(?<=[a-z0-9])(?=[A-Z])', '-', name).lower() + extension
+
 
 project = Path(ue.Paths.convert_relative_path_to_full(ue.Paths.project_dir()))
 tools = ue.AssetToolsHelpers.get_asset_tools()
@@ -61,7 +66,7 @@ material('StageSurface', (.035,.052,.090), .82, 0, stage=True)
 
 for name, expected_slots in [('DotBody', 3), ('DotHeadphones', 6)]:
     task = ue.AssetImportTask()
-    task.set_editor_property('filename', str(project / 'AssetSource' / f'{name}.fbx'))
+    task.set_editor_property('filename', str(project.parent / 'assets' / asset_name(name, '.fbx')))
     task.set_editor_property('destination_path', '/Game/Dot/Meshes')
     task.set_editor_property('destination_name', name)
     task.set_editor_property('automated', True)

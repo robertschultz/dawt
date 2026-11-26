@@ -1,3 +1,4 @@
+import re
 """Import the world-aligned warehouse booth from the editable Blender project."""
 import json
 import os
@@ -5,8 +6,12 @@ from pathlib import Path
 
 import unreal as ue
 
+def asset_name(name, extension):
+    return re.sub(r'(?<=[a-z0-9])(?=[A-Z])', '-', name).lower() + extension
+
+
 root = Path(ue.Paths.convert_relative_path_to_full(ue.Paths.project_dir()))
-source = root / "AssetSource" / "Warehouse"
+source = root.parent / "assets" / "warehouse"
 tool = ue.AssetToolsHelpers.get_asset_tools()
 editor = ue.EditorAssetLibrary
 nodes = ue.MaterialEditingLibrary
@@ -119,13 +124,13 @@ nodes.recompile_material(studio)
 editor.save_loaded_asset(studio)
 
 
-palette = json.loads((source / "WarehouseMaterials.json").read_text())
-palette.update(json.loads((source / "DotRecordMaterials.json").read_text()))
-palette.update(json.loads((source / "ClubVenueMaterials.json").read_text()))
-palette.update(json.loads((source / "CrateRefinedMaterials.json").read_text()))
-palette.update(json.loads((source / "BoilerRoomMaterials.json").read_text()))
-palette.update(json.loads((source / "CaliforniaVenueMaterials.json").read_text()))
-palette.update(json.loads((source / "AlivePyramidMaterials.json").read_text()))
+palette = json.loads((source / "warehouse-materials.json").read_text())
+palette.update(json.loads((source / "dot-record-materials.json").read_text()))
+palette.update(json.loads((source / "club-venue-materials.json").read_text()))
+palette.update(json.loads((source / "crate-refined-materials.json").read_text()))
+palette.update(json.loads((source / "boiler-room-materials.json").read_text()))
+palette.update(json.loads((source / "california-venue-materials.json").read_text()))
+palette.update(json.loads((source / "alive-pyramid-materials.json").read_text()))
 specifications = {token(name): (name, spec) for name, spec in palette.items()}
 materials = {}
 
@@ -153,7 +158,7 @@ for name in requested or mesh_names:
         ("normal_import_method", ue.FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS),
     ):
         settings.set_editor_property(key, value)
-    task.filename = str(source / f"{name}.fbx")
+    task.filename = str(source / asset_name(name, ".fbx"))
     task.destination_path = folder
     task.destination_name = name
     task.automated = task.replace_existing = task.save = True

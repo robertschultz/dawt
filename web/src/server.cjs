@@ -8,7 +8,7 @@ const playerPort = Number(process.argv[2] || 8170);
 const streamerPort = Number(process.argv[3] || 8172);
 const audio=createVirtualDJAudio();
 const files = new Map([
-  ['/dj-audio-worklet.js',['Source/virtualdj-worklet.js','text/javascript; charset=UTF-8']],
+  ['/dj-audio-worklet.js',['src/virtualdj-worklet.js','text/javascript; charset=UTF-8']],
   ['/', ['index.html','text/html; charset=UTF-8']],
   ['/dj', ['dj.html','text/html; charset=UTF-8']]
 ]);
