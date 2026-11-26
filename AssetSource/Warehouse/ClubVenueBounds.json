@@ -1,0 +1,106 @@
+{
+  "VenueEndUp": {
+    "bounds_min": [
+      -16.0,
+      -9.0,
+      -3.242499828338623
+    ],
+    "bounds_max": [
+      16.0,
+      13.012499809265137,
+      8.282500267028809
+    ],
+    "materials": [
+      "WH_EndUp_Sky_0",
+      "WH_EndUp_Sky_1",
+      "WH_EndUp_Sky_2",
+      "WH_EndUp_Sky_3",
+      "WH_EndUp_Sky_4",
+      "WH_EndUp_Sky_5",
+      "WH_EndUp_Sky_6",
+      "WH_EndUp_Sky_7",
+      "WH_EndUp_Sky_8",
+      "WH_EndUp_Warm_courtyard_paver",
+      "WH_EndUp_Pool_coping",
+      "WH_EndUp_Patio_mortar",
+      "WH_EndUp_Fired_brick_0",
+      "WH_EndUp_Fired_brick_1",
+      "WH_EndUp_Fired_brick_2",
+      "WH_EndUp_Fired_brick_3",
+      "WH_EndUp_Dark_bronze",
+      "WH_EndUp_Glazed_club_door",
+      "WH_EndUp_Oiled_teak",
+      "WH_EndUp_Celadon_water",
+      "WH_EndUp_Wet_basalt_1",
+      "WH_EndUp_Cascade_glints",
+      "WH_EndUp_Wet_basalt_2",
+      "WH_EndUp_Wet_basalt_0",
+      "WH_EndUp_Palm_bark",
+      "WH_EndUp_Palm_2",
+      "WH_EndUp_Palm_0",
+      "WH_EndUp_Palm_1",
+      "WH_EndUp_Palm_3",
+      "WH_EndUp_Tungsten_practical"
+    ],
+    "polygons": 31234
+  },
+  "VenueTunnel": {
+    "bounds_min": [
+      -12.0,
+      -9.0,
+      -0.17250001430511475
+    ],
+    "bounds_max": [
+      12.0,
+      28.0,
+      6.355000019073486
+    ],
+    "materials": [
+      "WH_Tunnel_Worn_freight_slab",
+      "WH_Tunnel_Vault_mortar",
+      "WH_Tunnel_Common_brick_3",
+      "WH_Tunnel_Common_brick_1",
+      "WH_Tunnel_Common_brick_0",
+      "WH_Tunnel_Common_brick_2",
+      "WH_Tunnel_Common_brick_4",
+      "WH_Tunnel_Cobalt_fluorescent",
+      "WH_Tunnel_Freight_iron",
+      "WH_Tunnel_Rose_fluorescent",
+      "WH_Tunnel_Blackened_cargo_doors",
+      "WH_Tunnel_Sodium_bulb",
+      "WH_Tunnel_Track_head"
+    ],
+    "polygons": 11924
+  },
+  "VenuePublicWorks": {
+    "bounds_min": [
+      -12.0,
+      -9.0,
+      -0.14500001072883606
+    ],
+    "bounds_max": [
+      12.0,
+      9.967000007629395,
+      5.900000095367432
+    ],
+    "materials": [
+      "WH_PublicWorks_Sprung_maple_0",
+      "WH_PublicWorks_Sprung_maple_1",
+      "WH_PublicWorks_Sprung_maple_3",
+      "WH_PublicWorks_Sprung_maple_2",
+      "WH_PublicWorks_Indigo_acoustic_paint",
+      "WH_PublicWorks_Painted_iron",
+      "WH_PublicWorks_Galvanised_supply_duct",
+      "WH_PublicWorks_Horn_interior",
+      "WH_PublicWorks_Plum_PA_enamel",
+      "WH_PublicWorks_Driver_rubber",
+      "WH_PublicWorks_Birch_plywood",
+      "WH_PublicWorks_Ivory_phase_plug",
+      "WH_PublicWorks_Coral_projector_wash",
+      "WH_PublicWorks_Lilac_projector_wash",
+      "WH_PublicWorks_Warm_tungsten_lens",
+      "WH_PublicWorks_Azure_lens"
+    ],
+    "polygons": 16484
+  }
+}

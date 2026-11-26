@@ -1,0 +1,2530 @@
+{
+  "WH_SanFrancisco_Atmosphere_0": {
+    "blender_name": "SanFrancisco / Atmosphere 0",
+    "base_color": [
+      0.4964102506637573,
+      0.6744070649147034,
+      0.7228044867515564
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4964102506637573,
+      0.6744070649147034,
+      0.7228044867515564
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_1": {
+    "blender_name": "SanFrancisco / Atmosphere 1",
+    "base_color": [
+      0.5092307925224304,
+      0.683221161365509,
+      0.728413462638855
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5092307925224304,
+      0.683221161365509,
+      0.728413462638855
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_2": {
+    "blender_name": "SanFrancisco / Atmosphere 2",
+    "base_color": [
+      0.5220512747764587,
+      0.6920352578163147,
+      0.7340224385261536
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5220512747764587,
+      0.6920352578163147,
+      0.7340224385261536
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_3": {
+    "blender_name": "SanFrancisco / Atmosphere 3",
+    "base_color": [
+      0.5348718166351318,
+      0.7008493542671204,
+      0.7396314144134521
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5348718166351318,
+      0.7008493542671204,
+      0.7396314144134521
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_4": {
+    "blender_name": "SanFrancisco / Atmosphere 4",
+    "base_color": [
+      0.5476922988891602,
+      0.709663450717926,
+      0.7452403903007507
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5476922988891602,
+      0.709663450717926,
+      0.7452403903007507
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_5": {
+    "blender_name": "SanFrancisco / Atmosphere 5",
+    "base_color": [
+      0.5605128407478333,
+      0.7184775471687317,
+      0.7508493661880493
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5605128407478333,
+      0.7184775471687317,
+      0.7508493661880493
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_6": {
+    "blender_name": "SanFrancisco / Atmosphere 6",
+    "base_color": [
+      0.5733333230018616,
+      0.7272916436195374,
+      0.7564583420753479
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5733333230018616,
+      0.7272916436195374,
+      0.7564583420753479
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_7": {
+    "blender_name": "SanFrancisco / Atmosphere 7",
+    "base_color": [
+      0.5861538648605347,
+      0.736105740070343,
+      0.7620673179626465
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5861538648605347,
+      0.736105740070343,
+      0.7620673179626465
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_8": {
+    "blender_name": "SanFrancisco / Atmosphere 8",
+    "base_color": [
+      0.598974347114563,
+      0.7449198961257935,
+      0.7676762938499451
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.598974347114563,
+      0.7449198961257935,
+      0.7676762938499451
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_9": {
+    "blender_name": "SanFrancisco / Atmosphere 9",
+    "base_color": [
+      0.6117948889732361,
+      0.7537339925765991,
+      0.7732852697372437
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6117948889732361,
+      0.7537339925765991,
+      0.7732852697372437
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_10": {
+    "blender_name": "SanFrancisco / Atmosphere 10",
+    "base_color": [
+      0.6246153712272644,
+      0.7625480890274048,
+      0.7788942456245422
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6246153712272644,
+      0.7625480890274048,
+      0.7788942456245422
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_11": {
+    "blender_name": "SanFrancisco / Atmosphere 11",
+    "base_color": [
+      0.6374359130859375,
+      0.7713621854782104,
+      0.7845032215118408
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6374359130859375,
+      0.7713621854782104,
+      0.7845032215118408
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_12": {
+    "blender_name": "SanFrancisco / Atmosphere 12",
+    "base_color": [
+      0.649226188659668,
+      0.7795833349227905,
+      0.7899702191352844
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.649226188659668,
+      0.7795833349227905,
+      0.7899702191352844
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_13": {
+    "blender_name": "SanFrancisco / Atmosphere 13",
+    "base_color": [
+      0.610535740852356,
+      0.7587500214576721,
+      0.788482129573822
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.610535740852356,
+      0.7587500214576721,
+      0.788482129573822
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_14": {
+    "blender_name": "SanFrancisco / Atmosphere 14",
+    "base_color": [
+      0.5718452334403992,
+      0.7379166483879089,
+      0.7869940400123596
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5718452334403992,
+      0.7379166483879089,
+      0.7869940400123596
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_15": {
+    "blender_name": "SanFrancisco / Atmosphere 15",
+    "base_color": [
+      0.5331547856330872,
+      0.7170833349227905,
+      0.7855059504508972
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5331547856330872,
+      0.7170833349227905,
+      0.7855059504508972
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_16": {
+    "blender_name": "SanFrancisco / Atmosphere 16",
+    "base_color": [
+      0.49446427822113037,
+      0.6962500214576721,
+      0.7840178608894348
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.49446427822113037,
+      0.6962500214576721,
+      0.7840178608894348
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_17": {
+    "blender_name": "SanFrancisco / Atmosphere 17",
+    "base_color": [
+      0.45577380061149597,
+      0.6754166483879089,
+      0.7825297713279724
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.45577380061149597,
+      0.6754166483879089,
+      0.7825297713279724
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_18": {
+    "blender_name": "SanFrancisco / Atmosphere 18",
+    "base_color": [
+      0.4170833230018616,
+      0.6545833349227905,
+      0.78104168176651
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4170833230018616,
+      0.6545833349227905,
+      0.78104168176651
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_19": {
+    "blender_name": "SanFrancisco / Atmosphere 19",
+    "base_color": [
+      0.3839062452316284,
+      0.6334375143051147,
+      0.7762500047683716
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3839062452316284,
+      0.6334375143051147,
+      0.7762500047683716
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_20": {
+    "blender_name": "SanFrancisco / Atmosphere 20",
+    "base_color": [
+      0.3635937571525574,
+      0.6115624904632568,
+      0.7637500166893005
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3635937571525574,
+      0.6115624904632568,
+      0.7637500166893005
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_21": {
+    "blender_name": "SanFrancisco / Atmosphere 21",
+    "base_color": [
+      0.34328123927116394,
+      0.5896875262260437,
+      0.7512500286102295
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.34328123927116394,
+      0.5896875262260437,
+      0.7512500286102295
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_22": {
+    "blender_name": "SanFrancisco / Atmosphere 22",
+    "base_color": [
+      0.3229687511920929,
+      0.5678125023841858,
+      0.7387499809265137
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3229687511920929,
+      0.5678125023841858,
+      0.7387499809265137
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_23": {
+    "blender_name": "SanFrancisco / Atmosphere 23",
+    "base_color": [
+      0.30265626311302185,
+      0.5459374785423279,
+      0.7262499928474426
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.30265626311302185,
+      0.5459374785423279,
+      0.7262499928474426
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_24": {
+    "blender_name": "SanFrancisco / Atmosphere 24",
+    "base_color": [
+      0.2823437452316284,
+      0.5240625143051147,
+      0.7137500047683716
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2823437452316284,
+      0.5240625143051147,
+      0.7137500047683716
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_25": {
+    "blender_name": "SanFrancisco / Atmosphere 25",
+    "base_color": [
+      0.2620312571525574,
+      0.5021874904632568,
+      0.7012500166893005
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2620312571525574,
+      0.5021874904632568,
+      0.7012500166893005
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_26": {
+    "blender_name": "SanFrancisco / Atmosphere 26",
+    "base_color": [
+      0.24171875417232513,
+      0.4803124964237213,
+      0.6887500286102295
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.24171875417232513,
+      0.4803124964237213,
+      0.6887500286102295
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_27": {
+    "blender_name": "SanFrancisco / Atmosphere 27",
+    "base_color": [
+      0.2214062511920929,
+      0.4584375023841858,
+      0.6762499809265137
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2214062511920929,
+      0.4584375023841858,
+      0.6762499809265137
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_28": {
+    "blender_name": "SanFrancisco / Atmosphere 28",
+    "base_color": [
+      0.20109374821186066,
+      0.43656250834465027,
+      0.6637499928474426
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.20109374821186066,
+      0.43656250834465027,
+      0.6637499928474426
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_29": {
+    "blender_name": "SanFrancisco / Atmosphere 29",
+    "base_color": [
+      0.18078124523162842,
+      0.41468751430511475,
+      0.6512500047683716
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.18078124523162842,
+      0.41468751430511475,
+      0.6512500047683716
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_30": {
+    "blender_name": "SanFrancisco / Atmosphere 30",
+    "base_color": [
+      0.16046875715255737,
+      0.39281249046325684,
+      0.6387500166893005
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.16046875715255737,
+      0.39281249046325684,
+      0.6387500166893005
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Atmosphere_31": {
+    "blender_name": "SanFrancisco / Atmosphere 31",
+    "base_color": [
+      0.14015625417232513,
+      0.3709374964237213,
+      0.6262500286102295
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.14015625417232513,
+      0.3709374964237213,
+      0.6262500286102295
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_SanFrancisco_Far_blue_headland": {
+    "blender_name": "SanFrancisco / Far blue headland",
+    "base_color": [
+      0.27000001072883606,
+      0.38999998569488525,
+      0.4000000059604645
+    ],
+    "roughness": 0.8999999761581421,
+    "metallic": 0.0,
+    "emission_color": [
+      0.27000001072883606,
+      0.38999998569488525,
+      0.4000000059604645
+    ],
+    "emission_strength": 0.06499999761581421
+  },
+  "WH_SanFrancisco_Marin_headland_0": {
+    "blender_name": "SanFrancisco / Marin headland 0",
+    "base_color": [
+      0.24699999392032623,
+      0.2930000126361847,
+      0.23199999332427979
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.24699999392032623,
+      0.2930000126361847,
+      0.23199999332427979
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Marin_headland_1": {
+    "blender_name": "SanFrancisco / Marin headland 1",
+    "base_color": [
+      0.3009999990463257,
+      0.3269999921321869,
+      0.23600000143051147
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3009999990463257,
+      0.3269999921321869,
+      0.23600000143051147
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Marin_headland_2": {
+    "blender_name": "SanFrancisco / Marin headland 2",
+    "base_color": [
+      0.23100000619888306,
+      0.2800000011920929,
+      0.21899999678134918
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.23100000619888306,
+      0.2800000011920929,
+      0.21899999678134918
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Marin_headland_3": {
+    "blender_name": "SanFrancisco / Marin headland 3",
+    "base_color": [
+      0.34599998593330383,
+      0.34200000762939453,
+      0.25099998712539673
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.34599998593330383,
+      0.34200000762939453,
+      0.25099998712539673
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Bay_water_0": {
+    "blender_name": "SanFrancisco / Bay water 0",
+    "base_color": [
+      0.0949999988079071,
+      0.2639999985694885,
+      0.28600001335144043
+    ],
+    "roughness": 0.30000001192092896,
+    "metallic": 0.25,
+    "emission_color": [
+      0.0949999988079071,
+      0.2639999985694885,
+      0.28600001335144043
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Bay_water_1": {
+    "blender_name": "SanFrancisco / Bay water 1",
+    "base_color": [
+      0.11699999868869781,
+      0.2980000078678131,
+      0.3070000112056732
+    ],
+    "roughness": 0.30000001192092896,
+    "metallic": 0.25,
+    "emission_color": [
+      0.11699999868869781,
+      0.2980000078678131,
+      0.3070000112056732
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Bay_water_3": {
+    "blender_name": "SanFrancisco / Bay water 3",
+    "base_color": [
+      0.13300000131130219,
+      0.3190000057220459,
+      0.32199999690055847
+    ],
+    "roughness": 0.30000001192092896,
+    "metallic": 0.25,
+    "emission_color": [
+      0.13300000131130219,
+      0.3190000057220459,
+      0.32199999690055847
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Bay_water_2": {
+    "blender_name": "SanFrancisco / Bay water 2",
+    "base_color": [
+      0.09000000357627869,
+      0.2370000034570694,
+      0.2639999985694885
+    ],
+    "roughness": 0.30000001192092896,
+    "metallic": 0.25,
+    "emission_color": [
+      0.09000000357627869,
+      0.2370000034570694,
+      0.2639999985694885
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Waterfront_concrete": {
+    "blender_name": "SanFrancisco / Waterfront concrete",
+    "base_color": [
+      0.27000001072883606,
+      0.2849999964237213,
+      0.27000001072883606
+    ],
+    "roughness": 0.8700000047683716,
+    "metallic": 0.0,
+    "emission_color": [
+      0.27000001072883606,
+      0.2849999964237213,
+      0.27000001072883606
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Weathered_bollard_iron": {
+    "blender_name": "SanFrancisco / Weathered bollard iron",
+    "base_color": [
+      0.0989999994635582,
+      0.14399999380111694,
+      0.14100000262260437
+    ],
+    "roughness": 0.550000011920929,
+    "metallic": 0.47999998927116394,
+    "emission_color": [
+      0.0989999994635582,
+      0.14399999380111694,
+      0.14100000262260437
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Cast_concrete_piers": {
+    "blender_name": "SanFrancisco / Cast concrete piers",
+    "base_color": [
+      0.24899999797344208,
+      0.2630000114440918,
+      0.24500000476837158
+    ],
+    "roughness": 0.7799999713897705,
+    "metallic": 0.0,
+    "emission_color": [
+      0.24899999797344208,
+      0.2630000114440918,
+      0.24500000476837158
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_International_orange": {
+    "blender_name": "SanFrancisco / International orange",
+    "base_color": [
+      0.7200000286102295,
+      0.11500000208616257,
+      0.052000001072883606
+    ],
+    "roughness": 0.4300000071525574,
+    "metallic": 0.3199999928474426,
+    "emission_color": [
+      0.7200000286102295,
+      0.11500000208616257,
+      0.052000001072883606
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Sunlit_orange_steel": {
+    "blender_name": "SanFrancisco / Sunlit orange steel",
+    "base_color": [
+      0.7599999904632568,
+      0.15800000727176666,
+      0.07699999958276749
+    ],
+    "roughness": 0.44999998807907104,
+    "metallic": 0.23000000417232513,
+    "emission_color": [
+      0.7599999904632568,
+      0.15800000727176666,
+      0.07699999958276749
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Oxide_red_in_shade": {
+    "blender_name": "SanFrancisco / Oxide red in shade",
+    "base_color": [
+      0.4020000100135803,
+      0.07000000029802322,
+      0.039000000804662704
+    ],
+    "roughness": 0.5099999904632568,
+    "metallic": 0.30000001192092896,
+    "emission_color": [
+      0.4020000100135803,
+      0.07000000029802322,
+      0.039000000804662704
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_SanFrancisco_Bridge_road_asphalt": {
+    "blender_name": "SanFrancisco / Bridge road asphalt",
+    "base_color": [
+      0.11599999666213989,
+      0.12999999523162842,
+      0.13500000536441803
+    ],
+    "roughness": 0.7799999713897705,
+    "metallic": 0.0,
+    "emission_color": [
+      0.11599999666213989,
+      0.12999999523162842,
+      0.13500000536441803
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Atmosphere_0": {
+    "blender_name": "LosAngeles / Atmosphere 0",
+    "base_color": [
+      0.34562501311302185,
+      0.2255147099494934,
+      0.25045955181121826
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.34562501311302185,
+      0.2255147099494934,
+      0.25045955181121826
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_1": {
+    "blender_name": "LosAngeles / Atmosphere 1",
+    "base_color": [
+      0.37687501311302185,
+      0.23654411733150482,
+      0.2513786852359772
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.37687501311302185,
+      0.23654411733150482,
+      0.2513786852359772
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_2": {
+    "blender_name": "LosAngeles / Atmosphere 2",
+    "base_color": [
+      0.40812501311302185,
+      0.24757352471351624,
+      0.2522977888584137
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.40812501311302185,
+      0.24757352471351624,
+      0.2522977888584137
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_3": {
+    "blender_name": "LosAngeles / Atmosphere 3",
+    "base_color": [
+      0.43937501311302185,
+      0.25860294699668884,
+      0.2532169222831726
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.43937501311302185,
+      0.25860294699668884,
+      0.2532169222831726
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_4": {
+    "blender_name": "LosAngeles / Atmosphere 4",
+    "base_color": [
+      0.47062501311302185,
+      0.26963233947753906,
+      0.25413602590560913
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.47062501311302185,
+      0.26963233947753906,
+      0.25413602590560913
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_5": {
+    "blender_name": "LosAngeles / Atmosphere 5",
+    "base_color": [
+      0.5018749833106995,
+      0.28066176176071167,
+      0.25505515933036804
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5018749833106995,
+      0.28066176176071167,
+      0.25505515933036804
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_6": {
+    "blender_name": "LosAngeles / Atmosphere 6",
+    "base_color": [
+      0.5331249833106995,
+      0.2916911840438843,
+      0.25597426295280457
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5331249833106995,
+      0.2916911840438843,
+      0.25597426295280457
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_7": {
+    "blender_name": "LosAngeles / Atmosphere 7",
+    "base_color": [
+      0.5643749833106995,
+      0.3027205765247345,
+      0.2568933963775635
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5643749833106995,
+      0.3027205765247345,
+      0.2568933963775635
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_8": {
+    "blender_name": "LosAngeles / Atmosphere 8",
+    "base_color": [
+      0.5956249833106995,
+      0.3137499988079071,
+      0.2578125
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5956249833106995,
+      0.3137499988079071,
+      0.2578125
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_9": {
+    "blender_name": "LosAngeles / Atmosphere 9",
+    "base_color": [
+      0.6268749833106995,
+      0.3247794210910797,
+      0.2587316036224365
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6268749833106995,
+      0.3247794210910797,
+      0.2587316036224365
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_10": {
+    "blender_name": "LosAngeles / Atmosphere 10",
+    "base_color": [
+      0.6581249833106995,
+      0.33580881357192993,
+      0.25965073704719543
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6581249833106995,
+      0.33580881357192993,
+      0.25965073704719543
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_11": {
+    "blender_name": "LosAngeles / Atmosphere 11",
+    "base_color": [
+      0.6430902481079102,
+      0.3335416615009308,
+      0.2761458456516266
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6430902481079102,
+      0.3335416615009308,
+      0.2761458456516266
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_12": {
+    "blender_name": "LosAngeles / Atmosphere 12",
+    "base_color": [
+      0.5996875166893005,
+      0.3231250047683716,
+      0.3021875023841858
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5996875166893005,
+      0.3231250047683716,
+      0.3021875023841858
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_13": {
+    "blender_name": "LosAngeles / Atmosphere 13",
+    "base_color": [
+      0.5562847256660461,
+      0.3127083480358124,
+      0.328229159116745
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5562847256660461,
+      0.3127083480358124,
+      0.328229159116745
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_14": {
+    "blender_name": "LosAngeles / Atmosphere 14",
+    "base_color": [
+      0.5128819346427917,
+      0.3022916615009308,
+      0.3542708456516266
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5128819346427917,
+      0.3022916615009308,
+      0.3542708456516266
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_15": {
+    "blender_name": "LosAngeles / Atmosphere 15",
+    "base_color": [
+      0.46947917342185974,
+      0.2918750047683716,
+      0.3803125023841858
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.46947917342185974,
+      0.2918750047683716,
+      0.3803125023841858
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_16": {
+    "blender_name": "LosAngeles / Atmosphere 16",
+    "base_color": [
+      0.42607638239860535,
+      0.2814583480358124,
+      0.406354159116745
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.42607638239860535,
+      0.2814583480358124,
+      0.406354159116745
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_17": {
+    "blender_name": "LosAngeles / Atmosphere 17",
+    "base_color": [
+      0.3922291696071625,
+      0.2683541774749756,
+      0.40328124165534973
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3922291696071625,
+      0.2683541774749756,
+      0.40328124165534973
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_18": {
+    "blender_name": "LosAngeles / Atmosphere 18",
+    "base_color": [
+      0.35993748903274536,
+      0.2548125088214874,
+      0.39546874165534973
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.35993748903274536,
+      0.2548125088214874,
+      0.39546874165534973
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_19": {
+    "blender_name": "LosAngeles / Atmosphere 19",
+    "base_color": [
+      0.32764583826065063,
+      0.24127084016799927,
+      0.38765624165534973
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.32764583826065063,
+      0.24127084016799927,
+      0.38765624165534973
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_20": {
+    "blender_name": "LosAngeles / Atmosphere 20",
+    "base_color": [
+      0.2953541576862335,
+      0.2277291715145111,
+      0.37984374165534973
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2953541576862335,
+      0.2277291715145111,
+      0.37984374165534973
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_21": {
+    "blender_name": "LosAngeles / Atmosphere 21",
+    "base_color": [
+      0.2630625069141388,
+      0.21418750286102295,
+      0.37203124165534973
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2630625069141388,
+      0.21418750286102295,
+      0.37203124165534973
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_22": {
+    "blender_name": "LosAngeles / Atmosphere 22",
+    "base_color": [
+      0.23077082633972168,
+      0.2006458342075348,
+      0.36421874165534973
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.23077082633972168,
+      0.2006458342075348,
+      0.36421874165534973
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_23": {
+    "blender_name": "LosAngeles / Atmosphere 23",
+    "base_color": [
+      0.19847916066646576,
+      0.18710416555404663,
+      0.35640624165534973
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.19847916066646576,
+      0.18710416555404663,
+      0.35640624165534973
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_24": {
+    "blender_name": "LosAngeles / Atmosphere 24",
+    "base_color": [
+      0.16975000500679016,
+      0.17445312440395355,
+      0.34765625
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.16975000500679016,
+      0.17445312440395355,
+      0.34765625
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_25": {
+    "blender_name": "LosAngeles / Atmosphere 25",
+    "base_color": [
+      0.15725000202655792,
+      0.1658593714237213,
+      0.3346354067325592
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.15725000202655792,
+      0.1658593714237213,
+      0.3346354067325592
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_26": {
+    "blender_name": "LosAngeles / Atmosphere 26",
+    "base_color": [
+      0.14474999904632568,
+      0.15726561844348907,
+      0.3216145932674408
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.14474999904632568,
+      0.15726561844348907,
+      0.3216145932674408
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_27": {
+    "blender_name": "LosAngeles / Atmosphere 27",
+    "base_color": [
+      0.13224999606609344,
+      0.14867188036441803,
+      0.30859375
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.13224999606609344,
+      0.14867188036441803,
+      0.30859375
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_28": {
+    "blender_name": "LosAngeles / Atmosphere 28",
+    "base_color": [
+      0.1197500005364418,
+      0.1400781273841858,
+      0.2955729067325592
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1197500005364418,
+      0.1400781273841858,
+      0.2955729067325592
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_29": {
+    "blender_name": "LosAngeles / Atmosphere 29",
+    "base_color": [
+      0.10724999755620956,
+      0.13148437440395355,
+      0.2825520932674408
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.10724999755620956,
+      0.13148437440395355,
+      0.2825520932674408
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_30": {
+    "blender_name": "LosAngeles / Atmosphere 30",
+    "base_color": [
+      0.09475000202655792,
+      0.12289062142372131,
+      0.26953125
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.09475000202655792,
+      0.12289062142372131,
+      0.26953125
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Atmosphere_31": {
+    "blender_name": "LosAngeles / Atmosphere 31",
+    "base_color": [
+      0.08224999904632568,
+      0.11429687589406967,
+      0.2565104067325592
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.08224999904632568,
+      0.11429687589406967,
+      0.2565104067325592
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_LosAngeles_Hazy_distant_range": {
+    "blender_name": "LosAngeles / Hazy distant range",
+    "base_color": [
+      0.2409999966621399,
+      0.20100000500679016,
+      0.2630000114440918
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2409999966621399,
+      0.20100000500679016,
+      0.2630000114440918
+    ],
+    "emission_strength": 0.09000000357627869
+  },
+  "WH_LosAngeles_Lower_basin_haze": {
+    "blender_name": "LosAngeles / Lower basin haze",
+    "base_color": [
+      0.164000004529953,
+      0.1509999930858612,
+      0.2160000056028366
+    ],
+    "roughness": 0.9399999976158142,
+    "metallic": 0.0,
+    "emission_color": [
+      0.164000004529953,
+      0.1509999930858612,
+      0.2160000056028366
+    ],
+    "emission_strength": 0.07999999821186066
+  },
+  "WH_LosAngeles_Rooftop_concrete": {
+    "blender_name": "LosAngeles / Rooftop concrete",
+    "base_color": [
+      0.18000000715255737,
+      0.16500000655651093,
+      0.18000000715255737
+    ],
+    "roughness": 0.7599999904632568,
+    "metallic": 0.0,
+    "emission_color": [
+      0.18000000715255737,
+      0.16500000655651093,
+      0.18000000715255737
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Oiled_rooftop_iron": {
+    "blender_name": "LosAngeles / Oiled rooftop iron",
+    "base_color": [
+      0.054999999701976776,
+      0.06300000101327896,
+      0.09000000357627869
+    ],
+    "roughness": 0.5400000214576721,
+    "metallic": 0.4300000071525574,
+    "emission_color": [
+      0.054999999701976776,
+      0.06300000101327896,
+      0.09000000357627869
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Tower_glass_4": {
+    "blender_name": "LosAngeles / Tower glass 4",
+    "base_color": [
+      0.11500000208616257,
+      0.10999999940395355,
+      0.13699999451637268
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.11500000208616257,
+      0.10999999940395355,
+      0.13699999451637268
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Tower_glass_0": {
+    "blender_name": "LosAngeles / Tower glass 0",
+    "base_color": [
+      0.03999999910593033,
+      0.06800000369548798,
+      0.11900000274181366
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.03999999910593033,
+      0.06800000369548798,
+      0.11900000274181366
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Tower_glass_3": {
+    "blender_name": "LosAngeles / Tower glass 3",
+    "base_color": [
+      0.0860000029206276,
+      0.11299999803304672,
+      0.16599999368190765
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.0860000029206276,
+      0.11299999803304672,
+      0.16599999368190765
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Tower_glass_2": {
+    "blender_name": "LosAngeles / Tower glass 2",
+    "base_color": [
+      0.10899999737739563,
+      0.10499999672174454,
+      0.164000004529953
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.10899999737739563,
+      0.10499999672174454,
+      0.164000004529953
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Tower_glass_1": {
+    "blender_name": "LosAngeles / Tower glass 1",
+    "base_color": [
+      0.06700000166893005,
+      0.09000000357627869,
+      0.1509999930858612
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.06700000166893005,
+      0.09000000357627869,
+      0.1509999930858612
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Sunset_glass_edge": {
+    "blender_name": "LosAngeles / Sunset glass edge",
+    "base_color": [
+      0.8500000238418579,
+      0.5099999904632568,
+      0.3199999928474426
+    ],
+    "roughness": 0.3199999928474426,
+    "metallic": 0.18000000715255737,
+    "emission_color": [
+      0.8500000238418579,
+      0.5099999904632568,
+      0.3199999928474426
+    ],
+    "emission_strength": 0.5099999904632568
+  },
+  "WH_LosAngeles_Crown_glass": {
+    "blender_name": "LosAngeles / Crown glass",
+    "base_color": [
+      0.4699999988079071,
+      0.6800000071525574,
+      0.8399999737739563
+    ],
+    "roughness": 0.28999999165534973,
+    "metallic": 0.2199999988079071,
+    "emission_color": [
+      0.4699999988079071,
+      0.6800000071525574,
+      0.8399999737739563
+    ],
+    "emission_strength": 0.6700000166893005
+  },
+  "WH_LosAngeles_Aviation_red": {
+    "blender_name": "LosAngeles / Aviation red",
+    "base_color": [
+      0.8999999761581421,
+      0.07800000160932541,
+      0.06499999761581421
+    ],
+    "roughness": 0.3400000035762787,
+    "metallic": 0.0,
+    "emission_color": [
+      0.8999999761581421,
+      0.07800000160932541,
+      0.06499999761581421
+    ],
+    "emission_strength": 1.2999999523162842
+  },
+  "WH_LosAngeles_Metal_spandrel": {
+    "blender_name": "LosAngeles / Metal spandrel",
+    "base_color": [
+      0.10000000149011612,
+      0.12999999523162842,
+      0.17399999499320984
+    ],
+    "roughness": 0.4399999976158142,
+    "metallic": 0.4300000071525574,
+    "emission_color": [
+      0.10000000149011612,
+      0.12999999523162842,
+      0.17399999499320984
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Occupied_office_3": {
+    "blender_name": "LosAngeles / Occupied office 3",
+    "base_color": [
+      0.550000011920929,
+      0.33000001311302185,
+      0.20000000298023224
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.11999999731779099,
+    "emission_color": [
+      0.550000011920929,
+      0.33000001311302185,
+      0.20000000298023224
+    ],
+    "emission_strength": 0.6700000166893005
+  },
+  "WH_LosAngeles_Occupied_office_2": {
+    "blender_name": "LosAngeles / Occupied office 2",
+    "base_color": [
+      0.7799999713897705,
+      0.7300000190734863,
+      0.6299999952316284
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.11999999731779099,
+    "emission_color": [
+      0.7799999713897705,
+      0.7300000190734863,
+      0.6299999952316284
+    ],
+    "emission_strength": 0.6700000166893005
+  },
+  "WH_LosAngeles_Occupied_office_1": {
+    "blender_name": "LosAngeles / Occupied office 1",
+    "base_color": [
+      0.49000000953674316,
+      0.5400000214576721,
+      0.6800000071525574
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.11999999731779099,
+    "emission_color": [
+      0.49000000953674316,
+      0.5400000214576721,
+      0.6800000071525574
+    ],
+    "emission_strength": 0.6700000166893005
+  },
+  "WH_LosAngeles_Occupied_office_0": {
+    "blender_name": "LosAngeles / Occupied office 0",
+    "base_color": [
+      0.8799999952316284,
+      0.5899999737739563,
+      0.28999999165534973
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.11999999731779099,
+    "emission_color": [
+      0.8799999952316284,
+      0.5899999737739563,
+      0.28999999165534973
+    ],
+    "emission_strength": 0.6700000166893005
+  },
+  "WH_LosAngeles_Shadowed_parapet": {
+    "blender_name": "LosAngeles / Shadowed parapet",
+    "base_color": [
+      0.03999999910593033,
+      0.04699999839067459,
+      0.07100000232458115
+    ],
+    "roughness": 0.6100000143051147,
+    "metallic": 0.23999999463558197,
+    "emission_color": [
+      0.03999999910593033,
+      0.04699999839067459,
+      0.07100000232458115
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Palm_trunk": {
+    "blender_name": "LosAngeles / Palm trunk",
+    "base_color": [
+      0.1080000028014183,
+      0.08100000023841858,
+      0.07800000160932541
+    ],
+    "roughness": 0.8500000238418579,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1080000028014183,
+      0.08100000023841858,
+      0.07800000160932541
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Palm_dusk_1": {
+    "blender_name": "LosAngeles / Palm dusk 1",
+    "base_color": [
+      0.06800000369548798,
+      0.08799999952316284,
+      0.06800000369548798
+    ],
+    "roughness": 0.7200000286102295,
+    "metallic": 0.0,
+    "emission_color": [
+      0.06800000369548798,
+      0.08799999952316284,
+      0.06800000369548798
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Palm_dusk_2": {
+    "blender_name": "LosAngeles / Palm dusk 2",
+    "base_color": [
+      0.09099999815225601,
+      0.09200000017881393,
+      0.07400000095367432
+    ],
+    "roughness": 0.7200000286102295,
+    "metallic": 0.0,
+    "emission_color": [
+      0.09099999815225601,
+      0.09200000017881393,
+      0.07400000095367432
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Palm_dusk_0": {
+    "blender_name": "LosAngeles / Palm dusk 0",
+    "base_color": [
+      0.03999999910593033,
+      0.06800000369548798,
+      0.05900000035762787
+    ],
+    "roughness": 0.7200000286102295,
+    "metallic": 0.0,
+    "emission_color": [
+      0.03999999910593033,
+      0.06800000369548798,
+      0.05900000035762787
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Atmosphere_0": {
+    "blender_name": "RoseBowl / Atmosphere 0",
+    "base_color": [
+      0.5447742938995361,
+      0.6747742891311646,
+      0.7260763645172119
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5447742938995361,
+      0.6747742891311646,
+      0.7260763645172119
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_1": {
+    "blender_name": "RoseBowl / Atmosphere 1",
+    "base_color": [
+      0.5543228983879089,
+      0.6843228936195374,
+      0.7382291555404663
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5543228983879089,
+      0.6843228936195374,
+      0.7382291555404663
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_2": {
+    "blender_name": "RoseBowl / Atmosphere 2",
+    "base_color": [
+      0.5638715028762817,
+      0.6938714981079102,
+      0.7503819465637207
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5638715028762817,
+      0.6938714981079102,
+      0.7503819465637207
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_3": {
+    "blender_name": "RoseBowl / Atmosphere 3",
+    "base_color": [
+      0.5734201669692993,
+      0.7034201622009277,
+      0.7625347375869751
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5734201669692993,
+      0.7034201622009277,
+      0.7625347375869751
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_4": {
+    "blender_name": "RoseBowl / Atmosphere 4",
+    "base_color": [
+      0.5829687714576721,
+      0.7129687666893005,
+      0.7746875286102295
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5829687714576721,
+      0.7129687666893005,
+      0.7746875286102295
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_5": {
+    "blender_name": "RoseBowl / Atmosphere 5",
+    "base_color": [
+      0.5925173759460449,
+      0.7225173711776733,
+      0.7868402600288391
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5925173759460449,
+      0.7225173711776733,
+      0.7868402600288391
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_6": {
+    "blender_name": "RoseBowl / Atmosphere 6",
+    "base_color": [
+      0.6020659804344177,
+      0.7320659756660461,
+      0.7989930510520935
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6020659804344177,
+      0.7320659756660461,
+      0.7989930510520935
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_7": {
+    "blender_name": "RoseBowl / Atmosphere 7",
+    "base_color": [
+      0.6116145849227905,
+      0.741614580154419,
+      0.8111458420753479
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6116145849227905,
+      0.741614580154419,
+      0.8111458420753479
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_8": {
+    "blender_name": "RoseBowl / Atmosphere 8",
+    "base_color": [
+      0.6211631894111633,
+      0.7511631846427917,
+      0.8232986330986023
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6211631894111633,
+      0.7511631846427917,
+      0.8232986330986023
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_9": {
+    "blender_name": "RoseBowl / Atmosphere 9",
+    "base_color": [
+      0.6307117938995361,
+      0.7607117891311646,
+      0.8354513645172119
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6307117938995361,
+      0.7607117891311646,
+      0.8354513645172119
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_10": {
+    "blender_name": "RoseBowl / Atmosphere 10",
+    "base_color": [
+      0.6402603983879089,
+      0.7702603936195374,
+      0.8476041555404663
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6402603983879089,
+      0.7702603936195374,
+      0.8476041555404663
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_11": {
+    "blender_name": "RoseBowl / Atmosphere 11",
+    "base_color": [
+      0.6498090028762817,
+      0.7798089981079102,
+      0.8597569465637207
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6498090028762817,
+      0.7798089981079102,
+      0.8597569465637207
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_12": {
+    "blender_name": "RoseBowl / Atmosphere 12",
+    "base_color": [
+      0.6117187738418579,
+      0.7548437714576721,
+      0.8501562476158142
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6117187738418579,
+      0.7548437714576721,
+      0.8501562476158142
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_13": {
+    "blender_name": "RoseBowl / Atmosphere 13",
+    "base_color": [
+      0.5726562738418579,
+      0.7291740775108337,
+      0.8401116132736206
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5726562738418579,
+      0.7291740775108337,
+      0.8401116132736206
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_14": {
+    "blender_name": "RoseBowl / Atmosphere 14",
+    "base_color": [
+      0.5335937738418579,
+      0.7035044431686401,
+      0.830066978931427
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5335937738418579,
+      0.7035044431686401,
+      0.830066978931427
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_15": {
+    "blender_name": "RoseBowl / Atmosphere 15",
+    "base_color": [
+      0.4945312440395355,
+      0.6778348088264465,
+      0.8200223445892334
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4945312440395355,
+      0.6778348088264465,
+      0.8200223445892334
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_16": {
+    "blender_name": "RoseBowl / Atmosphere 16",
+    "base_color": [
+      0.4554687440395355,
+      0.6521651744842529,
+      0.809977650642395
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4554687440395355,
+      0.6521651744842529,
+      0.809977650642395
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_17": {
+    "blender_name": "RoseBowl / Atmosphere 17",
+    "base_color": [
+      0.4164062440395355,
+      0.6264955401420593,
+      0.7999330163002014
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4164062440395355,
+      0.6264955401420593,
+      0.7999330163002014
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_18": {
+    "blender_name": "RoseBowl / Atmosphere 18",
+    "base_color": [
+      0.3773437440395355,
+      0.6008259057998657,
+      0.7898883819580078
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3773437440395355,
+      0.6008259057998657,
+      0.7898883819580078
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_19": {
+    "blender_name": "RoseBowl / Atmosphere 19",
+    "base_color": [
+      0.3382812440395355,
+      0.5751562714576721,
+      0.7798437476158142
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3382812440395355,
+      0.5751562714576721,
+      0.7798437476158142
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_20": {
+    "blender_name": "RoseBowl / Atmosphere 20",
+    "base_color": [
+      0.2997187376022339,
+      0.5495902895927429,
+      0.7697048783302307
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2997187376022339,
+      0.5495902895927429,
+      0.7697048783302307
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_21": {
+    "blender_name": "RoseBowl / Atmosphere 21",
+    "base_color": [
+      0.28565624356269836,
+      0.5291041731834412,
+      0.7549479007720947
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.28565624356269836,
+      0.5291041731834412,
+      0.7549479007720947
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_22": {
+    "blender_name": "RoseBowl / Atmosphere 22",
+    "base_color": [
+      0.27159374952316284,
+      0.5086180567741394,
+      0.7401909828186035
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.27159374952316284,
+      0.5086180567741394,
+      0.7401909828186035
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_23": {
+    "blender_name": "RoseBowl / Atmosphere 23",
+    "base_color": [
+      0.2575312554836273,
+      0.48813194036483765,
+      0.7254340052604675
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2575312554836273,
+      0.48813194036483765,
+      0.7254340052604675
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_24": {
+    "blender_name": "RoseBowl / Atmosphere 24",
+    "base_color": [
+      0.2434687465429306,
+      0.4676458239555359,
+      0.7106770873069763
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2434687465429306,
+      0.4676458239555359,
+      0.7106770873069763
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_25": {
+    "blender_name": "RoseBowl / Atmosphere 25",
+    "base_color": [
+      0.22940625250339508,
+      0.44715970754623413,
+      0.6959201097488403
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.22940625250339508,
+      0.44715970754623413,
+      0.6959201097488403
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_26": {
+    "blender_name": "RoseBowl / Atmosphere 26",
+    "base_color": [
+      0.21534374356269836,
+      0.42667362093925476,
+      0.6811631917953491
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.21534374356269836,
+      0.42667362093925476,
+      0.6811631917953491
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_27": {
+    "blender_name": "RoseBowl / Atmosphere 27",
+    "base_color": [
+      0.20128124952316284,
+      0.406187504529953,
+      0.6664062738418579
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.20128124952316284,
+      0.406187504529953,
+      0.6664062738418579
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_28": {
+    "blender_name": "RoseBowl / Atmosphere 28",
+    "base_color": [
+      0.18721875548362732,
+      0.38570138812065125,
+      0.6516492962837219
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.18721875548362732,
+      0.38570138812065125,
+      0.6516492962837219
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_29": {
+    "blender_name": "RoseBowl / Atmosphere 29",
+    "base_color": [
+      0.1731562465429306,
+      0.3652152717113495,
+      0.6368923783302307
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1731562465429306,
+      0.3652152717113495,
+      0.6368923783302307
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_30": {
+    "blender_name": "RoseBowl / Atmosphere 30",
+    "base_color": [
+      0.15909375250339508,
+      0.34472915530204773,
+      0.6221354007720947
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.15909375250339508,
+      0.34472915530204773,
+      0.6221354007720947
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_Atmosphere_31": {
+    "blender_name": "RoseBowl / Atmosphere 31",
+    "base_color": [
+      0.14503124356269836,
+      0.32424306869506836,
+      0.6073784828186035
+    ],
+    "roughness": 0.9300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.14503124356269836,
+      0.32424306869506836,
+      0.6073784828186035
+    ],
+    "emission_strength": 0.6299999952316284
+  },
+  "WH_RoseBowl_San_Gabriels_in_haze": {
+    "blender_name": "RoseBowl / San Gabriels in haze",
+    "base_color": [
+      0.28999999165534973,
+      0.3889999985694885,
+      0.453000009059906
+    ],
+    "roughness": 0.9399999976158142,
+    "metallic": 0.0,
+    "emission_color": [
+      0.28999999165534973,
+      0.3889999985694885,
+      0.453000009059906
+    ],
+    "emission_strength": 0.0949999988079071
+  },
+  "WH_RoseBowl_Arroyo_oak_canopy": {
+    "blender_name": "RoseBowl / Arroyo oak canopy",
+    "base_color": [
+      0.10499999672174454,
+      0.18000000715255737,
+      0.13300000131130219
+    ],
+    "roughness": 0.8299999833106995,
+    "metallic": 0.0,
+    "emission_color": [
+      0.10499999672174454,
+      0.18000000715255737,
+      0.13300000131130219
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Turf_stripe_0": {
+    "blender_name": "RoseBowl / Turf stripe 0",
+    "base_color": [
+      0.11299999803304672,
+      0.27900001406669617,
+      0.11299999803304672
+    ],
+    "roughness": 0.8600000143051147,
+    "metallic": 0.0,
+    "emission_color": [
+      0.11299999803304672,
+      0.27900001406669617,
+      0.11299999803304672
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Turf_stripe_1": {
+    "blender_name": "RoseBowl / Turf stripe 1",
+    "base_color": [
+      0.13099999725818634,
+      0.3160000145435333,
+      0.12800000607967377
+    ],
+    "roughness": 0.8600000143051147,
+    "metallic": 0.0,
+    "emission_color": [
+      0.13099999725818634,
+      0.3160000145435333,
+      0.12800000607967377
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Field_marking": {
+    "blender_name": "RoseBowl / Field marking",
+    "base_color": [
+      0.7400000095367432,
+      0.75,
+      0.6499999761581421
+    ],
+    "roughness": 0.8899999856948853,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7400000095367432,
+      0.75,
+      0.6499999761581421
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Warm_cast_concrete": {
+    "blender_name": "RoseBowl / Warm cast concrete",
+    "base_color": [
+      0.41999998688697815,
+      0.4020000100135803,
+      0.3529999852180481
+    ],
+    "roughness": 0.8700000047683716,
+    "metallic": 0.0,
+    "emission_color": [
+      0.41999998688697815,
+      0.4020000100135803,
+      0.3529999852180481
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Bowl_seating_0": {
+    "blender_name": "RoseBowl / Bowl seating 0",
+    "base_color": [
+      0.5199999809265137,
+      0.13199999928474426,
+      0.10499999672174454
+    ],
+    "roughness": 0.5699999928474426,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5199999809265137,
+      0.13199999928474426,
+      0.10499999672174454
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Bowl_seating_1": {
+    "blender_name": "RoseBowl / Bowl seating 1",
+    "base_color": [
+      0.5899999737739563,
+      0.16200000047683716,
+      0.125
+    ],
+    "roughness": 0.5699999928474426,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5899999737739563,
+      0.16200000047683716,
+      0.125
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Bowl_seating_2": {
+    "blender_name": "RoseBowl / Bowl seating 2",
+    "base_color": [
+      0.44999998807907104,
+      0.10100000351667404,
+      0.08399999886751175
+    ],
+    "roughness": 0.5699999928474426,
+    "metallic": 0.0,
+    "emission_color": [
+      0.44999998807907104,
+      0.10100000351667404,
+      0.08399999886751175
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Bowl_seating_3": {
+    "blender_name": "RoseBowl / Bowl seating 3",
+    "base_color": [
+      0.47999998927116394,
+      0.12399999797344208,
+      0.10700000077486038
+    ],
+    "roughness": 0.5699999928474426,
+    "metallic": 0.0,
+    "emission_color": [
+      0.47999998927116394,
+      0.12399999797344208,
+      0.10700000077486038
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Tunnel_shadow": {
+    "blender_name": "RoseBowl / Tunnel shadow",
+    "base_color": [
+      0.054999999701976776,
+      0.07500000298023224,
+      0.08100000023841858
+    ],
+    "roughness": 0.8199999928474426,
+    "metallic": 0.0,
+    "emission_color": [
+      0.054999999701976776,
+      0.07500000298023224,
+      0.08100000023841858
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Stadium_grey_metal": {
+    "blender_name": "RoseBowl / Stadium grey metal",
+    "base_color": [
+      0.19699999690055847,
+      0.21299999952316284,
+      0.21199999749660492
+    ],
+    "roughness": 0.41999998688697815,
+    "metallic": 0.6000000238418579,
+    "emission_color": [
+      0.19699999690055847,
+      0.21299999952316284,
+      0.21199999749660492
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Goalpost_yellow": {
+    "blender_name": "RoseBowl / Goalpost yellow",
+    "base_color": [
+      0.9100000262260437,
+      0.6499999761581421,
+      0.07400000095367432
+    ],
+    "roughness": 0.41999998688697815,
+    "metallic": 0.23000000417232513,
+    "emission_color": [
+      0.9100000262260437,
+      0.6499999761581421,
+      0.07400000095367432
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Scoreboard_lacquer": {
+    "blender_name": "RoseBowl / Scoreboard lacquer",
+    "base_color": [
+      0.029999999329447746,
+      0.07100000232458115,
+      0.06599999964237213
+    ],
+    "roughness": 0.49000000953674316,
+    "metallic": 0.2199999988079071,
+    "emission_color": [
+      0.029999999329447746,
+      0.07100000232458115,
+      0.06599999964237213
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Aged_cream_rim": {
+    "blender_name": "RoseBowl / Aged cream rim",
+    "base_color": [
+      0.5899999737739563,
+      0.5899999737739563,
+      0.5270000100135803
+    ],
+    "roughness": 0.699999988079071,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5899999737739563,
+      0.5899999737739563,
+      0.5270000100135803
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Porcelain_white": {
+    "blender_name": "RoseBowl / Porcelain white",
+    "base_color": [
+      0.8700000047683716,
+      0.8560000061988831,
+      0.7519999742507935
+    ],
+    "roughness": 0.5600000023841858,
+    "metallic": 0.029999999329447746,
+    "emission_color": [
+      0.8700000047683716,
+      0.8560000061988831,
+      0.7519999742507935
+    ],
+    "emission_strength": 0.10000000149011612
+  },
+  "WH_RoseBowl_Scoreboard_lamp": {
+    "blender_name": "RoseBowl / Scoreboard lamp",
+    "base_color": [
+      0.8700000047683716,
+      0.7799999713897705,
+      0.49000000953674316
+    ],
+    "roughness": 0.3499999940395355,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.8700000047683716,
+      0.7799999713897705,
+      0.49000000953674316
+    ],
+    "emission_strength": 0.46000000834465027
+  },
+  "WH_RoseBowl_Rose_leaf": {
+    "blender_name": "RoseBowl / Rose leaf",
+    "base_color": [
+      0.11500000208616257,
+      0.25699999928474426,
+      0.1469999998807907
+    ],
+    "roughness": 0.6600000262260437,
+    "metallic": 0.0,
+    "emission_color": [
+      0.11500000208616257,
+      0.25699999928474426,
+      0.1469999998807907
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Crimson_rose": {
+    "blender_name": "RoseBowl / Crimson rose",
+    "base_color": [
+      0.6200000047683716,
+      0.07900000363588333,
+      0.10400000214576721
+    ],
+    "roughness": 0.4300000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6200000047683716,
+      0.07900000363588333,
+      0.10400000214576721
+    ],
+    "emission_strength": 0.14000000059604645
+  },
+  "WH_RoseBowl_Pavilion_stucco": {
+    "blender_name": "RoseBowl / Pavilion stucco",
+    "base_color": [
+      0.6200000047683716,
+      0.6010000109672546,
+      0.503000020980835
+    ],
+    "roughness": 0.7900000214576721,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6200000047683716,
+      0.6010000109672546,
+      0.503000020980835
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Press_box_glass": {
+    "blender_name": "RoseBowl / Press box glass",
+    "base_color": [
+      0.11599999666213989,
+      0.19699999690055847,
+      0.23199999332427979
+    ],
+    "roughness": 0.2800000011920929,
+    "metallic": 0.25999999046325684,
+    "emission_color": [
+      0.11599999666213989,
+      0.19699999690055847,
+      0.23199999332427979
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_RoseBowl_Stadium_reflector": {
+    "blender_name": "RoseBowl / Stadium reflector",
+    "base_color": [
+      0.7400000095367432,
+      0.7799999713897705,
+      0.7699999809265137
+    ],
+    "roughness": 0.36000001430511475,
+    "metallic": 0.4099999964237213,
+    "emission_color": [
+      0.7400000095367432,
+      0.7799999713897705,
+      0.7699999809265137
+    ],
+    "emission_strength": 0.20000000298023224
+  },
+  "WH_LosAngeles_Aggregate_planter_concrete": {
+    "blender_name": "LosAngeles / Aggregate planter concrete",
+    "base_color": [
+      0.1850000023841858,
+      0.16500000655651093,
+      0.17000000178813934
+    ],
+    "roughness": 0.7300000190734863,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1850000023841858,
+      0.16500000655651093,
+      0.17000000178813934
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_LosAngeles_Dark_rooftop_soil": {
+    "blender_name": "LosAngeles / Dark rooftop soil",
+    "base_color": [
+      0.05900000035762787,
+      0.05400000140070915,
+      0.05299999937415123
+    ],
+    "roughness": 0.949999988079071,
+    "metallic": 0.0,
+    "emission_color": [
+      0.05900000035762787,
+      0.05400000140070915,
+      0.05299999937415123
+    ],
+    "emission_strength": 0.0
+  }
+}

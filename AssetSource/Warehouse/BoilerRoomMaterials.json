@@ -1,0 +1,242 @@
+{
+  "WH_BoilerRoom_Dark_stage_deck": {
+    "blender_name": "BoilerRoom / Dark stage deck",
+    "base_color": [
+      0.020999999716877937,
+      0.023000000044703484,
+      0.03099999949336052
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.07000000029802322,
+    "emission_color": [
+      0.020999999716877937,
+      0.023000000044703484,
+      0.03099999949336052
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Stage_void": {
+    "blender_name": "BoilerRoom / Stage void",
+    "base_color": [
+      0.006000000052154064,
+      0.007000000216066837,
+      0.012000000104308128
+    ],
+    "roughness": 0.9200000166893005,
+    "metallic": 0.0,
+    "emission_color": [
+      0.006000000052154064,
+      0.007000000216066837,
+      0.012000000104308128
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Charcoal_side_wall": {
+    "blender_name": "BoilerRoom / Charcoal side wall",
+    "base_color": [
+      0.014000000432133675,
+      0.017000000923871994,
+      0.02500000037252903
+    ],
+    "roughness": 0.8299999833106995,
+    "metallic": 0.0,
+    "emission_color": [
+      0.014000000432133675,
+      0.017000000923871994,
+      0.02500000037252903
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Brushed_scaffold_tube": {
+    "blender_name": "BoilerRoom / Brushed scaffold tube",
+    "base_color": [
+      0.1469999998807907,
+      0.15600000321865082,
+      0.17800000309944153
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.699999988079071,
+    "emission_color": [
+      0.1469999998807907,
+      0.15600000321865082,
+      0.17800000309944153
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Forged_couplers": {
+    "blender_name": "BoilerRoom / Forged couplers",
+    "base_color": [
+      0.20800000429153442,
+      0.21899999678134918,
+      0.23100000619888306
+    ],
+    "roughness": 0.36000001430511475,
+    "metallic": 0.699999988079071,
+    "emission_color": [
+      0.20800000429153442,
+      0.21899999678134918,
+      0.23100000619888306
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Dark_zinc_brace": {
+    "blender_name": "BoilerRoom / Dark zinc brace",
+    "base_color": [
+      0.09300000220537186,
+      0.1080000028014183,
+      0.13199999928474426
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.7099999785423279,
+    "emission_color": [
+      0.09300000220537186,
+      0.1080000028014183,
+      0.13199999928474426
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Fixture_body": {
+    "blender_name": "BoilerRoom / Fixture body",
+    "base_color": [
+      0.027000000700354576,
+      0.028999999165534973,
+      0.03999999910593033
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.3799999952316284,
+    "emission_color": [
+      0.027000000700354576,
+      0.028999999165534973,
+      0.03999999910593033
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Black_release_print": {
+    "blender_name": "BoilerRoom / Black release print",
+    "base_color": [
+      0.01600000075995922,
+      0.01600000075995922,
+      0.02199999988079071
+    ],
+    "roughness": 0.6499999761581421,
+    "metallic": 0.019999999552965164,
+    "emission_color": [
+      0.01600000075995922,
+      0.01600000075995922,
+      0.02199999988079071
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Warm_white_LED_tubing": {
+    "blender_name": "BoilerRoom / Warm white LED tubing",
+    "base_color": [
+      0.8600000143051147,
+      0.8500000238418579,
+      0.7900000214576721
+    ],
+    "roughness": 0.3499999940395355,
+    "metallic": 0.029999999329447746,
+    "emission_color": [
+      0.8600000143051147,
+      0.8500000238418579,
+      0.7900000214576721
+    ],
+    "emission_strength": 1.0499999523162842
+  },
+  "WH_BoilerRoom_Power_and_safety_cables": {
+    "blender_name": "BoilerRoom / Power and safety cables",
+    "base_color": [
+      0.03400000184774399,
+      0.032999999821186066,
+      0.04500000178813934
+    ],
+    "roughness": 0.699999988079071,
+    "metallic": 0.0,
+    "emission_color": [
+      0.03400000184774399,
+      0.032999999821186066,
+      0.04500000178813934
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_BoilerRoom_Cobalt_diffuser": {
+    "blender_name": "BoilerRoom / Cobalt diffuser",
+    "base_color": [
+      0.03500000014901161,
+      0.1120000034570694,
+      0.8500000238418579
+    ],
+    "roughness": 0.30000001192092896,
+    "metallic": 0.07999999821186066,
+    "emission_color": [
+      0.03500000014901161,
+      0.1120000034570694,
+      0.8500000238418579
+    ],
+    "emission_strength": 2.700000047683716
+  },
+  "WH_BoilerRoom_Amber_PAR_lens": {
+    "blender_name": "BoilerRoom / Amber PAR lens",
+    "base_color": [
+      0.9800000190734863,
+      0.22499999403953552,
+      0.05299999937415123
+    ],
+    "roughness": 0.3100000023841858,
+    "metallic": 0.07000000029802322,
+    "emission_color": [
+      0.9800000190734863,
+      0.22499999403953552,
+      0.05299999937415123
+    ],
+    "emission_strength": 2.049999952316284
+  },
+  "WH_BoilerRoom_Tungsten_lamp_core": {
+    "blender_name": "BoilerRoom / Tungsten lamp core",
+    "base_color": [
+      1.0,
+      0.5699999928474426,
+      0.20000000298023224
+    ],
+    "roughness": 0.3400000035762787,
+    "metallic": 0.019999999552965164,
+    "emission_color": [
+      1.0,
+      0.5699999928474426,
+      0.20000000298023224
+    ],
+    "emission_strength": 2.1500000953674316
+  },
+  "WH_BoilerRoom_Oxidised_amber_reflector": {
+    "blender_name": "BoilerRoom / Oxidised amber reflector",
+    "base_color": [
+      0.41999998688697815,
+      0.14499999582767487,
+      0.05999999865889549
+    ],
+    "roughness": 0.4399999976158142,
+    "metallic": 0.3400000035762787,
+    "emission_color": [
+      0.41999998688697815,
+      0.14499999582767487,
+      0.05999999865889549
+    ],
+    "emission_strength": 0.11999999731779099
+  },
+  "WH_BoilerRoom_Blue_uplight_lens": {
+    "blender_name": "BoilerRoom / Blue uplight lens",
+    "base_color": [
+      0.07800000160932541,
+      0.4300000071525574,
+      0.9800000190734863
+    ],
+    "roughness": 0.23999999463558197,
+    "metallic": 0.07000000029802322,
+    "emission_color": [
+      0.07800000160932541,
+      0.4300000071525574,
+      0.9800000190734863
+    ],
+    "emission_strength": 1.899999976158142
+  }
+}

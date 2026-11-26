@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10151e">
+<link rel="icon" href="data:,">
+<title>Dot — {{ENGINE}}</title>
+<style>{{CSS}}</style>
+</head>
+<body>
+<main class="console">
+  <header class="top">
+    <div class="brand"><span aria-hidden="true" class="glyph"></span><span>Dot</span></div>
+    <div class="engine">{{ENGINE}}</div>
+  </header>
+  <div class="workspace">
+    <section class="viewport" id="viewport" aria-label="Dot performance stage">
+      <div id="world"></div>
+      <div class="stage-top"><span id="status" role="status">Loading Dot</span><button id="expand" type="button" title="View stage full screen" aria-label="View stage full screen">⛶</button></div>
+      <div class="stage-bottom"><span id="current" aria-live="off">Performance</span><span id="hint">{{HINT}}</span></div>
+      <div class="stage-progress"><div id="progress"></div></div>
+    </section>
+    <aside class="controls">
+      <div class="heading"><h1>Dot in motion</h1><p>Watch the full set or cue a move.</p></div>
+      <div class="transport">
+        <button data-move="show" class="show-button" type="button" aria-pressed="true">Full performance <kbd>1</kbd></button>
+        <button id="pause" class="pause" type="button" aria-label="Pause performance" title="Pause performance">Ⅱ</button>
+      </div>
+      <div class="moves" aria-label="Moves">
+        <button data-move="bounce" type="button" aria-pressed="false">Bounce <kbd>2</kbd></button>
+        <button data-move="glide" type="button" aria-pressed="false">Glide <kbd>3</kbd></button>
+        <button data-move="spin" type="button" aria-pressed="false">Spin <kbd>4</kbd></button>
+        <button data-move="dance" type="button" aria-pressed="false">Dance <kbd>5</kbd></button>
+      </div>
+      <div class="divider"></div>
+      <button type="button" id="headphones" class="option" role="switch" aria-checked="true">Headphones <span class="switch" aria-hidden="true"></span></button>
+      {{STAGE}}
+      <button type="button" id="view" class="option">Rotate camera <span class="symbol" aria-hidden="true">↻</span></button>
+    </aside>
+  </div>
+  <footer><span>CRATEWORLD character demo</span><span>{{FOOTER}}</span></footer>
+</main>
+{{DATA}}
+<script>{{SCRIPT}}</script>
+</body>
+</html>

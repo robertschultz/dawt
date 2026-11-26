@@ -1,0 +1,292 @@
+{
+  "Alive_BlackAnodized": {
+    "blender_name": "Alive_BlackAnodized",
+    "base_color": [
+      0.009,
+      0.011,
+      0.018
+    ],
+    "roughness": 0.44,
+    "metallic": 0.42,
+    "emission_color": [
+      0,
+      0,
+      0
+    ],
+    "emission_strength": 0
+  },
+  "Alive_Gunmetal": {
+    "blender_name": "Alive_Gunmetal",
+    "base_color": [
+      0.043,
+      0.048,
+      0.066
+    ],
+    "roughness": 0.39,
+    "metallic": 0.61,
+    "emission_color": [
+      0,
+      0,
+      0
+    ],
+    "emission_strength": 0
+  },
+  "Alive_StageDeck": {
+    "blender_name": "Alive_StageDeck",
+    "base_color": [
+      0.025,
+      0.031,
+      0.045
+    ],
+    "roughness": 0.51,
+    "metallic": 0.14,
+    "emission_color": [
+      0,
+      0,
+      0
+    ],
+    "emission_strength": 0
+  },
+  "Alive_NightDrape": {
+    "blender_name": "Alive_NightDrape",
+    "base_color": [
+      0.003,
+      0.005,
+      0.012
+    ],
+    "roughness": 0.95,
+    "metallic": 0,
+    "emission_color": [
+      0,
+      0,
+      0
+    ],
+    "emission_strength": 0
+  },
+  "Alive_PanelGlass": {
+    "blender_name": "Alive_PanelGlass",
+    "base_color": [
+      0.016,
+      0.02,
+      0.034
+    ],
+    "roughness": 0.4,
+    "metallic": 0.31,
+    "emission_color": [
+      0,
+      0,
+      0
+    ],
+    "emission_strength": 0
+  },
+  "Alive_TubeWhite": {
+    "blender_name": "Alive_TubeWhite",
+    "base_color": [
+      0.78,
+      1,
+      0.9
+    ],
+    "roughness": 0.36,
+    "metallic": 0,
+    "emission_color": [
+      0.78,
+      1,
+      0.9
+    ],
+    "emission_strength": 4.4
+  },
+  "Alive_TubeIce": {
+    "blender_name": "Alive_TubeIce",
+    "base_color": [
+      0.21,
+      0.69,
+      1
+    ],
+    "roughness": 0.33,
+    "metallic": 0,
+    "emission_color": [
+      0.21,
+      0.69,
+      1
+    ],
+    "emission_strength": 3.8
+  },
+  "Alive_TubeRose": {
+    "blender_name": "Alive_TubeRose",
+    "base_color": [
+      1,
+      0.27,
+      0.41
+    ],
+    "roughness": 0.33,
+    "metallic": 0,
+    "emission_color": [
+      1,
+      0.27,
+      0.41
+    ],
+    "emission_strength": 3.45
+  },
+  "Alive_ApexAmber": {
+    "blender_name": "Alive_ApexAmber",
+    "base_color": [
+      1,
+      0.29,
+      0.044
+    ],
+    "roughness": 0.38,
+    "metallic": 0,
+    "emission_color": [
+      1,
+      0.29,
+      0.044
+    ],
+    "emission_strength": 3.9
+  },
+  "Alive_ApexShade": {
+    "blender_name": "Alive_ApexShade",
+    "base_color": [
+      1,
+      0.104,
+      0.021
+    ],
+    "roughness": 0.4,
+    "metallic": 0,
+    "emission_color": [
+      1,
+      0.104,
+      0.021
+    ],
+    "emission_strength": 1.75
+  },
+  "Alive_HazeIce": {
+    "blender_name": "Alive_HazeIce",
+    "base_color": [
+      0.23,
+      0.4,
+      1
+    ],
+    "roughness": 0.74,
+    "metallic": 0,
+    "emission_color": [
+      0.23,
+      0.4,
+      1
+    ],
+    "emission_strength": 0.5,
+    "beam": true
+  },
+  "Alive_HazePink": {
+    "blender_name": "Alive_HazePink",
+    "base_color": [
+      1,
+      0.24,
+      0.43
+    ],
+    "roughness": 0.74,
+    "metallic": 0,
+    "emission_color": [
+      1,
+      0.24,
+      0.43
+    ],
+    "emission_strength": 0.42,
+    "beam": true
+  },
+  "Alive_PodiumCore": {
+    "blender_name": "Alive_PodiumCore",
+    "base_color": [
+      0.78,
+      0.86,
+      1
+    ],
+    "roughness": 0.35,
+    "metallic": 0,
+    "emission_color": [
+      0.78,
+      0.86,
+      1
+    ],
+    "emission_strength": 2.8
+  },
+  "Alive_CurtainDim": {
+    "blender_name": "Alive_CurtainDim",
+    "base_color": [
+      0.05,
+      0.08,
+      0.4
+    ],
+    "roughness": 0.65,
+    "metallic": 0,
+    "emission_color": [
+      0.05,
+      0.08,
+      0.4
+    ],
+    "emission_strength": 0.7
+  },
+  "Alive_CurtainIndigo": {
+    "blender_name": "Alive_CurtainIndigo",
+    "base_color": [
+      0.17,
+      0.19,
+      1
+    ],
+    "roughness": 0.62,
+    "metallic": 0,
+    "emission_color": [
+      0.17,
+      0.19,
+      1
+    ],
+    "emission_strength": 1.3
+  },
+  "Alive_CurtainCyan": {
+    "blender_name": "Alive_CurtainCyan",
+    "base_color": [
+      0.08,
+      0.56,
+      1
+    ],
+    "roughness": 0.56,
+    "metallic": 0,
+    "emission_color": [
+      0.08,
+      0.56,
+      1
+    ],
+    "emission_strength": 2.3
+  },
+  "Alive_CurtainPink": {
+    "blender_name": "Alive_CurtainPink",
+    "base_color": [
+      0.68,
+      0.13,
+      0.7
+    ],
+    "roughness": 0.62,
+    "metallic": 0,
+    "emission_color": [
+      0.68,
+      0.13,
+      0.7
+    ],
+    "emission_strength": 1.3
+  },
+  "Alive_CurtainWhite": {
+    "blender_name": "Alive_CurtainWhite",
+    "base_color": [
+      0.64,
+      0.83,
+      1
+    ],
+    "roughness": 0.6,
+    "metallic": 0,
+    "emission_color": [
+      0.64,
+      0.83,
+      1
+    ],
+    "emission_strength": 1.65
+  }
+}

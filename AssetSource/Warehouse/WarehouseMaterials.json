@@ -1,0 +1,2690 @@
+{
+  "WH_Warehouse_Slab": {
+    "blender_name": "Warehouse / Slab",
+    "base_color": [
+      0.1289999932050705,
+      0.13500000536441803,
+      0.1420000046491623
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1289999932050705,
+      0.13500000536441803,
+      0.1420000046491623
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Warehouse_Masonry": {
+    "blender_name": "Warehouse / Masonry",
+    "base_color": [
+      0.13199999928474426,
+      0.13500000536441803,
+      0.14100000262260437
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.13199999928474426,
+      0.13500000536441803,
+      0.14100000262260437
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Warehouse_Exposed_brick": {
+    "blender_name": "Warehouse / Exposed brick",
+    "base_color": [
+      0.26499998569488525,
+      0.164000004529953,
+      0.12700000405311584
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.26499998569488525,
+      0.164000004529953,
+      0.12700000405311584
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Stage_Carbon_powdercoat": {
+    "blender_name": "Stage / Carbon powdercoat",
+    "base_color": [
+      0.023000000044703484,
+      0.027000000700354576,
+      0.041999999433755875
+    ],
+    "roughness": 0.5,
+    "metallic": 0.46000000834465027,
+    "emission_color": [
+      0.023000000044703484,
+      0.027000000700354576,
+      0.041999999433755875
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Warehouse_Overcast_glazing": {
+    "blender_name": "Warehouse / Overcast glazing",
+    "base_color": [
+      0.3799999952316284,
+      0.5299999713897705,
+      0.6700000166893005
+    ],
+    "roughness": 0.5799999833106995,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.3799999952316284,
+      0.5299999713897705,
+      0.6700000166893005
+    ],
+    "emission_strength": 1.25
+  },
+  "WH_Stage_Brushed_alloy": {
+    "blender_name": "Stage / Brushed alloy",
+    "base_color": [
+      0.2800000011920929,
+      0.3100000023841858,
+      0.3700000047683716
+    ],
+    "roughness": 0.3199999928474426,
+    "metallic": 0.7400000095367432,
+    "emission_color": [
+      0.2800000011920929,
+      0.3100000023841858,
+      0.3700000047683716
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Ink": {
+    "blender_name": "Archive / Ink",
+    "base_color": [
+      0.01899999938905239,
+      0.023000000044703484,
+      0.035999998450279236
+    ],
+    "roughness": 0.44999998807907104,
+    "metallic": 0.1599999964237213,
+    "emission_color": [
+      0.01899999938905239,
+      0.023000000044703484,
+      0.035999998450279236
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Practical_Warm_diffuser": {
+    "blender_name": "Practical / Warm diffuser",
+    "base_color": [
+      1.0,
+      0.5199999809265137,
+      0.25
+    ],
+    "roughness": 0.3799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      1.0,
+      0.5199999809265137,
+      0.25
+    ],
+    "emission_strength": 3.0
+  },
+  "WH_Archive_Charcoal_liner": {
+    "blender_name": "Archive / Charcoal liner",
+    "base_color": [
+      0.04800000041723251,
+      0.05000000074505806,
+      0.06300000101327896
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.04800000041723251,
+      0.05000000074505806,
+      0.06300000101327896
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Satin_corner_trim": {
+    "blender_name": "Archive / Satin corner trim",
+    "base_color": [
+      0.5899999737739563,
+      0.6399999856948853,
+      0.6899999976158142
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.6600000262260437,
+    "emission_color": [
+      0.5899999737739563,
+      0.6399999856948853,
+      0.6899999976158142
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Booth_Blackened_ash": {
+    "blender_name": "Booth / Blackened ash",
+    "base_color": [
+      0.04800000041723251,
+      0.041999999433755875,
+      0.05700000002980232
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.04800000041723251,
+      0.041999999433755875,
+      0.05700000002980232
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Booth_Darkened_plywood_plies": {
+    "blender_name": "Booth / Darkened plywood plies",
+    "base_color": [
+      0.1899999976158142,
+      0.1469999998807907,
+      0.13600000739097595
+    ],
+    "roughness": 0.5299999713897705,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1899999976158142,
+      0.1469999998807907,
+      0.13600000739097595
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_Rubber": {
+    "blender_name": "Deck_Rubber",
+    "base_color": [
+      0.052000001072883606,
+      0.04800000041723251,
+      0.07999999821186066
+    ],
+    "roughness": 0.6299999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.052000001072883606,
+      0.04800000041723251,
+      0.07999999821186066
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_Lilac": {
+    "blender_name": "Deck_Lilac",
+    "base_color": [
+      0.4480000138282776,
+      0.414000004529953,
+      0.6650000214576721
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.10000000149011612,
+    "emission_color": [
+      0.4480000138282776,
+      0.414000004529953,
+      0.6650000214576721
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_Pearl": {
+    "blender_name": "Deck_Pearl",
+    "base_color": [
+      0.8600000143051147,
+      0.8849999904632568,
+      0.9700000286102295
+    ],
+    "roughness": 0.3199999928474426,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.8600000143051147,
+      0.8849999904632568,
+      0.9700000286102295
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_Ink": {
+    "blender_name": "Deck_Ink",
+    "base_color": [
+      0.02199999988079071,
+      0.02500000037252903,
+      0.0430000014603138
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.12999999523162842,
+    "emission_color": [
+      0.02199999988079071,
+      0.02500000037252903,
+      0.0430000014603138
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_Alloy": {
+    "blender_name": "Deck_Alloy",
+    "base_color": [
+      0.5199999809265137,
+      0.5400000214576721,
+      0.6600000262260437
+    ],
+    "roughness": 0.25999999046325684,
+    "metallic": 0.8299999833106995,
+    "emission_color": [
+      0.5199999809265137,
+      0.5400000214576721,
+      0.6600000262260437
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_Porcelain": {
+    "blender_name": "Deck_Porcelain",
+    "base_color": [
+      0.949999988079071,
+      0.9449999928474426,
+      0.9399999976158142
+    ],
+    "roughness": 0.3199999928474426,
+    "metallic": 0.019999999552965164,
+    "emission_color": [
+      0.949999988079071,
+      0.9449999928474426,
+      0.9399999976158142
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_GraphitePrint": {
+    "blender_name": "Deck_GraphitePrint",
+    "base_color": [
+      0.10400000214576721,
+      0.10300000011920929,
+      0.1589999943971634
+    ],
+    "roughness": 0.47999998927116394,
+    "metallic": 0.0,
+    "emission_color": [
+      0.10400000214576721,
+      0.10300000011920929,
+      0.1589999943971634
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_SignalIce": {
+    "blender_name": "Deck_SignalIce",
+    "base_color": [
+      0.3400000035762787,
+      0.8399999737739563,
+      0.8899999856948853
+    ],
+    "roughness": 0.28999999165534973,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.3400000035762787,
+      0.8399999737739563,
+      0.8899999856948853
+    ],
+    "emission_strength": 0.41999998688697815
+  },
+  "WH_Deck_PaleLilac": {
+    "blender_name": "Deck_PaleLilac",
+    "base_color": [
+      0.6449999809265137,
+      0.625,
+      0.8399999737739563
+    ],
+    "roughness": 0.36000001430511475,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.6449999809265137,
+      0.625,
+      0.8399999737739563
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_DisplayGlass": {
+    "blender_name": "Deck_DisplayGlass",
+    "base_color": [
+      0.012000000104308128,
+      0.019999999552965164,
+      0.03999999910593033
+    ],
+    "roughness": 0.25,
+    "metallic": 0.11999999731779099,
+    "emission_color": [
+      0.012000000104308128,
+      0.019999999552965164,
+      0.03999999910593033
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_SignalLilac": {
+    "blender_name": "Deck_SignalLilac",
+    "base_color": [
+      0.6600000262260437,
+      0.4699999988079071,
+      0.9900000095367432
+    ],
+    "roughness": 0.3199999928474426,
+    "metallic": 0.019999999552965164,
+    "emission_color": [
+      0.6600000262260437,
+      0.4699999988079071,
+      0.9900000095367432
+    ],
+    "emission_strength": 0.3199999928474426
+  },
+  "WH_Deck_SilverPrint": {
+    "blender_name": "Deck_SilverPrint",
+    "base_color": [
+      0.49000000953674316,
+      0.5,
+      0.6200000047683716
+    ],
+    "roughness": 0.47999998927116394,
+    "metallic": 0.0,
+    "emission_color": [
+      0.49000000953674316,
+      0.5,
+      0.6200000047683716
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_PadUnlit": {
+    "blender_name": "Deck_PadUnlit",
+    "base_color": [
+      0.7149999737739563,
+      0.7099999785423279,
+      0.8230000138282776
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7149999737739563,
+      0.7099999785423279,
+      0.8230000138282776
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Sage_shell": {
+    "blender_name": "Archive / Sage shell",
+    "base_color": [
+      0.3100000023841858,
+      0.4099999964237213,
+      0.4000000059604645
+    ],
+    "roughness": 0.3799999952316284,
+    "metallic": 0.4699999988079071,
+    "emission_color": [
+      0.3100000023841858,
+      0.4099999964237213,
+      0.4000000059604645
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Warm_paper": {
+    "blender_name": "Archive / Warm paper",
+    "base_color": [
+      0.7799999713897705,
+      0.7300000190734863,
+      0.6499999761581421
+    ],
+    "roughness": 0.6299999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7799999713897705,
+      0.7300000190734863,
+      0.6499999761581421
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Marigold": {
+    "blender_name": "Archive / Marigold",
+    "base_color": [
+      0.8199999928474426,
+      0.5600000023841858,
+      0.18000000715255737
+    ],
+    "roughness": 0.5400000214576721,
+    "metallic": 0.0,
+    "emission_color": [
+      0.8199999928474426,
+      0.5600000023841858,
+      0.18000000715255737
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Mineral": {
+    "blender_name": "Archive / Mineral",
+    "base_color": [
+      0.23000000417232513,
+      0.6200000047683716,
+      0.6000000238418579
+    ],
+    "roughness": 0.47999998927116394,
+    "metallic": 0.0,
+    "emission_color": [
+      0.23000000417232513,
+      0.6200000047683716,
+      0.6000000238418579
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Midnight": {
+    "blender_name": "Archive / Midnight",
+    "base_color": [
+      0.054999999701976776,
+      0.08399999886751175,
+      0.14000000059604645
+    ],
+    "roughness": 0.6100000143051147,
+    "metallic": 0.0,
+    "emission_color": [
+      0.054999999701976776,
+      0.08399999886751175,
+      0.14000000059604645
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Smoke_lavender": {
+    "blender_name": "Archive / Smoke lavender",
+    "base_color": [
+      0.47999998927116394,
+      0.4000000059604645,
+      0.6499999761581421
+    ],
+    "roughness": 0.5199999809265137,
+    "metallic": 0.0,
+    "emission_color": [
+      0.47999998927116394,
+      0.4000000059604645,
+      0.6499999761581421
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Persimmon": {
+    "blender_name": "Archive / Persimmon",
+    "base_color": [
+      0.8100000023841858,
+      0.23000000417232513,
+      0.1599999964237213
+    ],
+    "roughness": 0.5400000214576721,
+    "metallic": 0.0,
+    "emission_color": [
+      0.8100000023841858,
+      0.23000000417232513,
+      0.1599999964237213
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Pressed_carbon_vinyl": {
+    "blender_name": "Archive / Pressed carbon vinyl",
+    "base_color": [
+      0.009999999776482582,
+      0.012000000104308128,
+      0.017999999225139618
+    ],
+    "roughness": 0.25,
+    "metallic": 0.23999999463558197,
+    "emission_color": [
+      0.009999999776482582,
+      0.012000000104308128,
+      0.017999999225139618
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Archive_Etched_groove_bands": {
+    "blender_name": "Archive / Etched groove bands",
+    "base_color": [
+      0.02500000037252903,
+      0.027000000700354576,
+      0.03400000184774399
+    ],
+    "roughness": 0.3100000023841858,
+    "metallic": 0.3100000023841858,
+    "emission_color": [
+      0.02500000037252903,
+      0.027000000700354576,
+      0.03400000184774399
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_Vinyl": {
+    "blender_name": "Deck_Vinyl",
+    "base_color": [
+      0.008999999612569809,
+      0.009999999776482582,
+      0.014999999664723873
+    ],
+    "roughness": 0.25,
+    "metallic": 0.1599999964237213,
+    "emission_color": [
+      0.008999999612569809,
+      0.009999999776482582,
+      0.014999999664723873
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Deck_RecordGroove": {
+    "blender_name": "Deck_RecordGroove",
+    "base_color": [
+      0.017999999225139618,
+      0.019999999552965164,
+      0.029999999329447746
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.3199999928474426,
+    "emission_color": [
+      0.017999999225139618,
+      0.019999999552965164,
+      0.029999999329447746
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Booth_Smoked_graphite_worktop": {
+    "blender_name": "Booth / Smoked graphite worktop",
+    "base_color": [
+      0.052000001072883606,
+      0.05700000002980232,
+      0.07100000232458115
+    ],
+    "roughness": 0.4300000071525574,
+    "metallic": 0.10999999940395355,
+    "emission_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Booth_Shadow_joint": {
+    "blender_name": "Booth / Shadow joint",
+    "base_color": [
+      0.02199999988079071,
+      0.02500000037252903,
+      0.032999999821186066
+    ],
+    "roughness": 0.5099999904632568,
+    "metallic": 0.09000000357627869,
+    "emission_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Booth_Satin_graphite_skin": {
+    "blender_name": "Booth / Satin graphite skin",
+    "base_color": [
+      0.09799999743700027,
+      0.10899999737739563,
+      0.12999999523162842
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.3199999928474426,
+    "emission_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Festival_Deck_paint": {
+    "blender_name": "Festival / Deck paint",
+    "base_color": [
+      0.09200000017881393,
+      0.07999999821186066,
+      0.09000000357627869
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.09200000017881393,
+      0.07999999821186066,
+      0.09000000357627869
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Festival_Sky_gradient_00": {
+    "blender_name": "Festival / Sky gradient 00",
+    "base_color": [
+      0.5816666483879089,
+      0.25518518686294556,
+      0.18037037551403046
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5816666483879089,
+      0.25518518686294556,
+      0.18037037551403046
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_01": {
+    "blender_name": "Festival / Sky gradient 01",
+    "base_color": [
+      0.6650000214576721,
+      0.32555556297302246,
+      0.22111110389232635
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6650000214576721,
+      0.32555556297302246,
+      0.22111110389232635
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_02": {
+    "blender_name": "Festival / Sky gradient 02",
+    "base_color": [
+      0.7483333349227905,
+      0.39592593908309937,
+      0.26185184717178345
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7483333349227905,
+      0.39592593908309937,
+      0.26185184717178345
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_03": {
+    "blender_name": "Festival / Sky gradient 03",
+    "base_color": [
+      0.8316666483879089,
+      0.4662962853908539,
+      0.30259260535240173
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.8316666483879089,
+      0.4662962853908539,
+      0.30259260535240173
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_04": {
+    "blender_name": "Festival / Sky gradient 04",
+    "base_color": [
+      0.9150000214576721,
+      0.5366666913032532,
+      0.34333333373069763
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.9150000214576721,
+      0.5366666913032532,
+      0.34333333373069763
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_05": {
+    "blender_name": "Festival / Sky gradient 05",
+    "base_color": [
+      0.9859259128570557,
+      0.5962963104248047,
+      0.3803703784942627
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.9859259128570557,
+      0.5962963104248047,
+      0.3803703784942627
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_06": {
+    "blender_name": "Festival / Sky gradient 06",
+    "base_color": [
+      0.9451851844787598,
+      0.5592592358589172,
+      0.38407406210899353
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.9451851844787598,
+      0.5592592358589172,
+      0.38407406210899353
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_07": {
+    "blender_name": "Festival / Sky gradient 07",
+    "base_color": [
+      0.9044444561004639,
+      0.5222222208976746,
+      0.38777777552604675
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.9044444561004639,
+      0.5222222208976746,
+      0.38777777552604675
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_08": {
+    "blender_name": "Festival / Sky gradient 08",
+    "base_color": [
+      0.863703727722168,
+      0.4851851761341095,
+      0.3914814889431
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.863703727722168,
+      0.4851851761341095,
+      0.3914814889431
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_09": {
+    "blender_name": "Festival / Sky gradient 09",
+    "base_color": [
+      0.8229629397392273,
+      0.4481481611728668,
+      0.3951851725578308
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.8229629397392273,
+      0.4481481611728668,
+      0.3951851725578308
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_10": {
+    "blender_name": "Festival / Sky gradient 10",
+    "base_color": [
+      0.7822222113609314,
+      0.41111111640930176,
+      0.39888888597488403
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7822222113609314,
+      0.41111111640930176,
+      0.39888888597488403
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_11": {
+    "blender_name": "Festival / Sky gradient 11",
+    "base_color": [
+      0.710694432258606,
+      0.37958332896232605,
+      0.3970833420753479
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.710694432258606,
+      0.37958332896232605,
+      0.3970833420753479
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_12": {
+    "blender_name": "Festival / Sky gradient 12",
+    "base_color": [
+      0.6259722113609314,
+      0.3504166603088379,
+      0.3929166793823242
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6259722113609314,
+      0.3504166603088379,
+      0.3929166793823242
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_13": {
+    "blender_name": "Festival / Sky gradient 13",
+    "base_color": [
+      0.5412499904632568,
+      0.32124999165534973,
+      0.38874998688697815
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5412499904632568,
+      0.32124999165534973,
+      0.38874998688697815
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_14": {
+    "blender_name": "Festival / Sky gradient 14",
+    "base_color": [
+      0.4565277695655823,
+      0.2920833230018616,
+      0.38458332419395447
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4565277695655823,
+      0.2920833230018616,
+      0.38458332419395447
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_15": {
+    "blender_name": "Festival / Sky gradient 15",
+    "base_color": [
+      0.3718055486679077,
+      0.2629166543483734,
+      0.3804166615009308
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3718055486679077,
+      0.2629166543483734,
+      0.3804166615009308
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_16": {
+    "blender_name": "Festival / Sky gradient 16",
+    "base_color": [
+      0.28708332777023315,
+      0.23375000059604645,
+      0.3762499988079071
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.28708332777023315,
+      0.23375000059604645,
+      0.3762499988079071
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Sky_gradient_17": {
+    "blender_name": "Festival / Sky gradient 17",
+    "base_color": [
+      0.2023611068725586,
+      0.2045833319425583,
+      0.3720833361148834
+    ],
+    "roughness": 0.5,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2023611068725586,
+      0.2045833319425583,
+      0.3720833361148834
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Festival_Low_sun": {
+    "blender_name": "Festival / Low sun",
+    "base_color": [
+      1.0,
+      0.6600000262260437,
+      0.3499999940395355
+    ],
+    "roughness": 0.6499999761581421,
+    "metallic": 0.0,
+    "emission_color": [
+      1.0,
+      0.6600000262260437,
+      0.3499999940395355
+    ],
+    "emission_strength": 2.5999999046325684
+  },
+  "WH_Festival_Ridge_0": {
+    "blender_name": "Festival / Ridge 0",
+    "base_color": [
+      0.2199999988079071,
+      0.1550000011920929,
+      0.19599999487400055
+    ],
+    "roughness": 0.699999988079071,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2199999988079071,
+      0.1550000011920929,
+      0.19599999487400055
+    ],
+    "emission_strength": 0.30000001192092896
+  },
+  "WH_Festival_Ridge_1": {
+    "blender_name": "Festival / Ridge 1",
+    "base_color": [
+      0.15000000596046448,
+      0.12999999523162842,
+      0.18000000715255737
+    ],
+    "roughness": 0.699999988079071,
+    "metallic": 0.0,
+    "emission_color": [
+      0.15000000596046448,
+      0.12999999523162842,
+      0.18000000715255737
+    ],
+    "emission_strength": 0.30000001192092896
+  },
+  "WH_Festival_Ridge_2": {
+    "blender_name": "Festival / Ridge 2",
+    "base_color": [
+      0.10599999874830246,
+      0.11599999666213989,
+      0.1550000011920929
+    ],
+    "roughness": 0.699999988079071,
+    "metallic": 0.0,
+    "emission_color": [
+      0.10599999874830246,
+      0.11599999666213989,
+      0.1550000011920929
+    ],
+    "emission_strength": 0.30000001192092896
+  },
+  "WH_Nightclub_Polished_slate": {
+    "blender_name": "Nightclub / Polished slate",
+    "base_color": [
+      0.04500000178813934,
+      0.05400000140070915,
+      0.10499999672174454
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.04500000178813934,
+      0.05400000140070915,
+      0.10499999672174454
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Nightclub_Flocked_panels": {
+    "blender_name": "Nightclub / Flocked panels",
+    "base_color": [
+      0.041999999433755875,
+      0.039000000804662704,
+      0.09099999815225601
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.041999999433755875,
+      0.039000000804662704,
+      0.09099999815225601
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Practical_Lilac_diffuser": {
+    "blender_name": "Practical / Lilac diffuser",
+    "base_color": [
+      0.46000000834465027,
+      0.25,
+      0.8600000143051147
+    ],
+    "roughness": 0.3400000035762787,
+    "metallic": 0.0,
+    "emission_color": [
+      0.46000000834465027,
+      0.25,
+      0.8600000143051147
+    ],
+    "emission_strength": 2.200000047683716
+  },
+  "WH_Practical_Ice_diode": {
+    "blender_name": "Practical / Ice diode",
+    "base_color": [
+      0.25,
+      0.7300000190734863,
+      0.8500000238418579
+    ],
+    "roughness": 0.3499999940395355,
+    "metallic": 0.0,
+    "emission_color": [
+      0.25,
+      0.7300000190734863,
+      0.8500000238418579
+    ],
+    "emission_strength": 2.0
+  },
+  "WH_Broadcast_Dark_floor": {
+    "blender_name": "Broadcast / Dark floor",
+    "base_color": [
+      0.09799999743700027,
+      0.06599999964237213,
+      0.06199999898672104
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.09799999743700027,
+      0.06599999964237213,
+      0.06199999898672104
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Warm_plaster": {
+    "blender_name": "Broadcast / Warm plaster",
+    "base_color": [
+      0.2800000011920929,
+      0.20499999821186066,
+      0.1860000044107437
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2800000011920929,
+      0.20499999821186066,
+      0.1860000044107437
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Practical_Red_tally": {
+    "blender_name": "Practical / Red tally",
+    "base_color": [
+      0.949999988079071,
+      0.07400000095367432,
+      0.04500000178813934
+    ],
+    "roughness": 0.36000001430511475,
+    "metallic": 0.0,
+    "emission_color": [
+      0.949999988079071,
+      0.07400000095367432,
+      0.04500000178813934
+    ],
+    "emission_strength": 2.5
+  },
+  "WH_Broadcast_Cotton_1": {
+    "blender_name": "Broadcast / Cotton 1",
+    "base_color": [
+      0.03999999910593033,
+      0.041999999433755875,
+      0.05999999865889549
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.03999999910593033,
+      0.041999999433755875,
+      0.05999999865889549
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Complexion_1": {
+    "blender_name": "Broadcast / Complexion 1",
+    "base_color": [
+      0.36000001430511475,
+      0.20999999344348907,
+      0.15000000596046448
+    ],
+    "roughness": 0.6399999856948853,
+    "metallic": 0.0,
+    "emission_color": [
+      0.36000001430511475,
+      0.20999999344348907,
+      0.15000000596046448
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Hair": {
+    "blender_name": "Broadcast / Hair",
+    "base_color": [
+      0.039000000804662704,
+      0.029999999329447746,
+      0.03200000151991844
+    ],
+    "roughness": 0.7799999713897705,
+    "metallic": 0.0,
+    "emission_color": [
+      0.039000000804662704,
+      0.029999999329447746,
+      0.03200000151991844
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Cotton_4": {
+    "blender_name": "Broadcast / Cotton 4",
+    "base_color": [
+      0.1599999964237213,
+      0.12999999523162842,
+      0.15800000727176666
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1599999964237213,
+      0.12999999523162842,
+      0.15800000727176666
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Complexion_2": {
+    "blender_name": "Broadcast / Complexion 2",
+    "base_color": [
+      0.23000000417232513,
+      0.1289999932050705,
+      0.10499999672174454
+    ],
+    "roughness": 0.6399999856948853,
+    "metallic": 0.0,
+    "emission_color": [
+      0.23000000417232513,
+      0.1289999932050705,
+      0.10499999672174454
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Cotton_2": {
+    "blender_name": "Broadcast / Cotton 2",
+    "base_color": [
+      0.15000000596046448,
+      0.10300000011920929,
+      0.10199999809265137
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.15000000596046448,
+      0.10300000011920929,
+      0.10199999809265137
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Complexion_3": {
+    "blender_name": "Broadcast / Complexion 3",
+    "base_color": [
+      0.47999998927116394,
+      0.3100000023841858,
+      0.23499999940395355
+    ],
+    "roughness": 0.6399999856948853,
+    "metallic": 0.0,
+    "emission_color": [
+      0.47999998927116394,
+      0.3100000023841858,
+      0.23499999940395355
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Cotton_5": {
+    "blender_name": "Broadcast / Cotton 5",
+    "base_color": [
+      0.1899999976158142,
+      0.17000000178813934,
+      0.15199999511241913
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.1899999976158142,
+      0.17000000178813934,
+      0.15199999511241913
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Complexion_4": {
+    "blender_name": "Broadcast / Complexion 4",
+    "base_color": [
+      0.18000000715255737,
+      0.10499999672174454,
+      0.08900000154972076
+    ],
+    "roughness": 0.6399999856948853,
+    "metallic": 0.0,
+    "emission_color": [
+      0.18000000715255737,
+      0.10499999672174454,
+      0.08900000154972076
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Cotton_3": {
+    "blender_name": "Broadcast / Cotton 3",
+    "base_color": [
+      0.10000000149011612,
+      0.13500000536441803,
+      0.13699999451637268
+    ],
+    "roughness": 0.7400000095367432,
+    "metallic": 0.0,
+    "emission_color": [
+      0.10000000149011612,
+      0.13500000536441803,
+      0.13699999451637268
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Broadcast_Complexion_5": {
+    "blender_name": "Broadcast / Complexion 5",
+    "base_color": [
+      0.4000000059604645,
+      0.26499998569488525,
+      0.2029999941587448
+    ],
+    "roughness": 0.6399999856948853,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4000000059604645,
+      0.26499998569488525,
+      0.2029999941587448
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Rooftop_Sky_0": {
+    "blender_name": "Rooftop / Sky 0",
+    "base_color": [
+      0.5699999928474426,
+      0.2800000011920929,
+      0.3199999928474426
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5699999928474426,
+      0.2800000011920929,
+      0.3199999928474426
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_1": {
+    "blender_name": "Rooftop / Sky 1",
+    "base_color": [
+      0.5052499771118164,
+      0.2562499940395355,
+      0.3100000023841858
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5052499771118164,
+      0.2562499940395355,
+      0.3100000023841858
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_2": {
+    "blender_name": "Rooftop / Sky 2",
+    "base_color": [
+      0.4404999911785126,
+      0.23250000178813934,
+      0.30000001192092896
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.4404999911785126,
+      0.23250000178813934,
+      0.30000001192092896
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_3": {
+    "blender_name": "Rooftop / Sky 3",
+    "base_color": [
+      0.37575000524520874,
+      0.20874999463558197,
+      0.28999999165534973
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.37575000524520874,
+      0.20874999463558197,
+      0.28999999165534973
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_4": {
+    "blender_name": "Rooftop / Sky 4",
+    "base_color": [
+      0.3109999895095825,
+      0.1850000023841858,
+      0.2800000011920929
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3109999895095825,
+      0.1850000023841858,
+      0.2800000011920929
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_5": {
+    "blender_name": "Rooftop / Sky 5",
+    "base_color": [
+      0.2462500035762787,
+      0.16124999523162842,
+      0.27000001072883606
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2462500035762787,
+      0.16124999523162842,
+      0.27000001072883606
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_6": {
+    "blender_name": "Rooftop / Sky 6",
+    "base_color": [
+      0.18150000274181366,
+      0.13750000298023224,
+      0.25999999046325684
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.18150000274181366,
+      0.13750000298023224,
+      0.25999999046325684
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_7": {
+    "blender_name": "Rooftop / Sky 7",
+    "base_color": [
+      0.11675000190734863,
+      0.11375000327825546,
+      0.25
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.11675000190734863,
+      0.11375000327825546,
+      0.25
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Sky_8": {
+    "blender_name": "Rooftop / Sky 8",
+    "base_color": [
+      0.052000001072883606,
+      0.09000000357627869,
+      0.23999999463558197
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.052000001072883606,
+      0.09000000357627869,
+      0.23999999463558197
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Rooftop_Concrete_terrace": {
+    "blender_name": "Rooftop / Concrete terrace",
+    "base_color": [
+      0.3199999928474426,
+      0.3199999928474426,
+      0.3400000035762787
+    ],
+    "roughness": 0.8399999737739563,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3199999928474426,
+      0.3199999928474426,
+      0.3400000035762787
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Rooftop_Tower_glass_3": {
+    "blender_name": "Rooftop / Tower glass 3",
+    "base_color": [
+      0.2199999988079071,
+      0.23999999463558197,
+      0.3100000023841858
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.2199999988079071,
+      0.23999999463558197,
+      0.3100000023841858
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Rooftop_Blackened_aluminium": {
+    "blender_name": "Rooftop / Blackened aluminium",
+    "base_color": [
+      0.052000001072883606,
+      0.09099999815225601,
+      0.12999999523162842
+    ],
+    "roughness": 0.3700000047683716,
+    "metallic": 0.6499999761581421,
+    "emission_color": [
+      0.052000001072883606,
+      0.09099999815225601,
+      0.12999999523162842
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Rooftop_Window_2": {
+    "blender_name": "Rooftop / Window 2",
+    "base_color": [
+      0.8600000143051147,
+      0.7400000095367432,
+      0.6000000238418579
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.10000000149011612,
+    "emission_color": [
+      0.8600000143051147,
+      0.7400000095367432,
+      0.6000000238418579
+    ],
+    "emission_strength": 1.399999976158142
+  },
+  "WH_Rooftop_Window_1": {
+    "blender_name": "Rooftop / Window 1",
+    "base_color": [
+      0.38999998569488525,
+      0.6600000262260437,
+      0.8199999928474426
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.10000000149011612,
+    "emission_color": [
+      0.38999998569488525,
+      0.6600000262260437,
+      0.8199999928474426
+    ],
+    "emission_strength": 1.399999976158142
+  },
+  "WH_Rooftop_Window_0": {
+    "blender_name": "Rooftop / Window 0",
+    "base_color": [
+      0.9200000166893005,
+      0.5299999713897705,
+      0.23999999463558197
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.10000000149011612,
+    "emission_color": [
+      0.9200000166893005,
+      0.5299999713897705,
+      0.23999999463558197
+    ],
+    "emission_strength": 1.399999976158142
+  },
+  "WH_Rooftop_Tower_glass_1": {
+    "blender_name": "Rooftop / Tower glass 1",
+    "base_color": [
+      0.15000000596046448,
+      0.1899999976158142,
+      0.2549999952316284
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.15000000596046448,
+      0.1899999976158142,
+      0.2549999952316284
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Rooftop_Tower_glass_0": {
+    "blender_name": "Rooftop / Tower glass 0",
+    "base_color": [
+      0.08399999886751175,
+      0.12999999523162842,
+      0.20999999344348907
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.08399999886751175,
+      0.12999999523162842,
+      0.20999999344348907
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Rooftop_Tower_glass_2": {
+    "blender_name": "Rooftop / Tower glass 2",
+    "base_color": [
+      0.09000000357627869,
+      0.1120000034570694,
+      0.17000000178813934
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.09000000357627869,
+      0.1120000034570694,
+      0.17000000178813934
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Rooftop_Roof_fascia": {
+    "blender_name": "Rooftop / Roof fascia",
+    "base_color": [
+      0.17000000178813934,
+      0.1850000023841858,
+      0.23000000417232513
+    ],
+    "roughness": 0.7300000190734863,
+    "metallic": 0.0,
+    "emission_color": [
+      0.17000000178813934,
+      0.1850000023841858,
+      0.23000000417232513
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Desert_Sky_0": {
+    "blender_name": "Desert / Sky 0",
+    "base_color": [
+      1.0,
+      0.5600000023841858,
+      0.30000001192092896
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      1.0,
+      0.5600000023841858,
+      0.30000001192092896
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_1": {
+    "blender_name": "Desert / Sky 1",
+    "base_color": [
+      0.9325000047683716,
+      0.5512499809265137,
+      0.3499999940395355
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.9325000047683716,
+      0.5512499809265137,
+      0.3499999940395355
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_2": {
+    "blender_name": "Desert / Sky 2",
+    "base_color": [
+      0.8650000095367432,
+      0.5425000190734863,
+      0.4000000059604645
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.8650000095367432,
+      0.5425000190734863,
+      0.4000000059604645
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_3": {
+    "blender_name": "Desert / Sky 3",
+    "base_color": [
+      0.7975000143051147,
+      0.5337499976158142,
+      0.44999998807907104
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7975000143051147,
+      0.5337499976158142,
+      0.44999998807907104
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_4": {
+    "blender_name": "Desert / Sky 4",
+    "base_color": [
+      0.7300000190734863,
+      0.5249999761581421,
+      0.5
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7300000190734863,
+      0.5249999761581421,
+      0.5
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_5": {
+    "blender_name": "Desert / Sky 5",
+    "base_color": [
+      0.6625000238418579,
+      0.5162500143051147,
+      0.550000011920929
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6625000238418579,
+      0.5162500143051147,
+      0.550000011920929
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_6": {
+    "blender_name": "Desert / Sky 6",
+    "base_color": [
+      0.5950000286102295,
+      0.5074999928474426,
+      0.6000000238418579
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5950000286102295,
+      0.5074999928474426,
+      0.6000000238418579
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_7": {
+    "blender_name": "Desert / Sky 7",
+    "base_color": [
+      0.5274999737739563,
+      0.4987500011920929,
+      0.6499999761581421
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5274999737739563,
+      0.4987500011920929,
+      0.6499999761581421
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Sky_8": {
+    "blender_name": "Desert / Sky 8",
+    "base_color": [
+      0.46000000834465027,
+      0.49000000953674316,
+      0.699999988079071
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.46000000834465027,
+      0.49000000953674316,
+      0.699999988079071
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Desert_Ochre_sand": {
+    "blender_name": "Desert / Ochre sand",
+    "base_color": [
+      0.699999988079071,
+      0.36000001430511475,
+      0.17499999701976776
+    ],
+    "roughness": 0.949999988079071,
+    "metallic": 0.0,
+    "emission_color": [
+      0.699999988079071,
+      0.36000001430511475,
+      0.17499999701976776
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Desert_Apricot_sun": {
+    "blender_name": "Desert / Apricot sun",
+    "base_color": [
+      1.0,
+      0.7300000190734863,
+      0.36000001430511475
+    ],
+    "roughness": 0.6600000262260437,
+    "metallic": 0.0,
+    "emission_color": [
+      1.0,
+      0.7300000190734863,
+      0.36000001430511475
+    ],
+    "emission_strength": 1.149999976158142
+  },
+  "WH_Desert_Sandstone_1": {
+    "blender_name": "Desert / Sandstone 1",
+    "base_color": [
+      0.6800000071525574,
+      0.3230000138282776,
+      0.1599999964237213
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6800000071525574,
+      0.3230000138282776,
+      0.1599999964237213
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Desert_Sandstone_0": {
+    "blender_name": "Desert / Sandstone 0",
+    "base_color": [
+      0.5199999809265137,
+      0.2199999988079071,
+      0.11500000208616257
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5199999809265137,
+      0.2199999988079071,
+      0.11500000208616257
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Desert_Sandstone_2": {
+    "blender_name": "Desert / Sandstone 2",
+    "base_color": [
+      0.44999998807907104,
+      0.17000000178813934,
+      0.09000000357627869
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.44999998807907104,
+      0.17000000178813934,
+      0.09000000357627869
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Desert_Sandstone_3": {
+    "blender_name": "Desert / Sandstone 3",
+    "base_color": [
+      0.7699999809265137,
+      0.4000000059604645,
+      0.20999999344348907
+    ],
+    "roughness": 0.8799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7699999809265137,
+      0.4000000059604645,
+      0.20999999344348907
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Desert_Saguaro_sage": {
+    "blender_name": "Desert / Saguaro sage",
+    "base_color": [
+      0.11500000208616257,
+      0.2199999988079071,
+      0.13300000131130219
+    ],
+    "roughness": 0.7799999713897705,
+    "metallic": 0.0,
+    "emission_color": [
+      0.11500000208616257,
+      0.2199999988079071,
+      0.13300000131130219
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Desert_Saguaro_rib": {
+    "blender_name": "Desert / Saguaro rib",
+    "base_color": [
+      0.24500000476837158,
+      0.3400000035762787,
+      0.18700000643730164
+    ],
+    "roughness": 0.800000011920929,
+    "metallic": 0.0,
+    "emission_color": [
+      0.24500000476837158,
+      0.3400000035762787,
+      0.18700000643730164
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Arcade_Cabinet_graphite": {
+    "blender_name": "Arcade / Cabinet graphite",
+    "base_color": [
+      0.02800000086426735,
+      0.026000000536441803,
+      0.054999999701976776
+    ],
+    "roughness": 0.3799999952316284,
+    "metallic": 0.25,
+    "emission_color": [
+      0.02800000086426735,
+      0.026000000536441803,
+      0.054999999701976776
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Arcade_Violet_panelling": {
+    "blender_name": "Arcade / Violet panelling",
+    "base_color": [
+      0.07699999958276749,
+      0.03400000184774399,
+      0.13300000131130219
+    ],
+    "roughness": 0.6000000238418579,
+    "metallic": 0.0,
+    "emission_color": [
+      0.07699999958276749,
+      0.03400000184774399,
+      0.13300000131130219
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Arcade_Phosphor_Violet": {
+    "blender_name": "Arcade / Phosphor Violet",
+    "base_color": [
+      0.38999998569488525,
+      0.11999999731779099,
+      0.8799999952316284
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.38999998569488525,
+      0.11999999731779099,
+      0.8799999952316284
+    ],
+    "emission_strength": 2.700000047683716
+  },
+  "WH_Arcade_Phosphor_Cyan": {
+    "blender_name": "Arcade / Phosphor Cyan",
+    "base_color": [
+      0.03500000014901161,
+      0.8100000023841858,
+      0.8399999737739563
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.03500000014901161,
+      0.8100000023841858,
+      0.8399999737739563
+    ],
+    "emission_strength": 2.700000047683716
+  },
+  "WH_Arcade_CRT_glass": {
+    "blender_name": "Arcade / CRT glass",
+    "base_color": [
+      0.008999999612569809,
+      0.039000000804662704,
+      0.06400000303983688
+    ],
+    "roughness": 0.1899999976158142,
+    "metallic": 0.2800000011920929,
+    "emission_color": [
+      0.008999999612569809,
+      0.039000000804662704,
+      0.06400000303983688
+    ],
+    "emission_strength": 0.10000000149011612
+  },
+  "WH_Arcade_Phosphor_Pink": {
+    "blender_name": "Arcade / Phosphor Pink",
+    "base_color": [
+      0.9399999976158142,
+      0.07500000298023224,
+      0.3799999952316284
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      0.9399999976158142,
+      0.07500000298023224,
+      0.3799999952316284
+    ],
+    "emission_strength": 2.700000047683716
+  },
+  "WH_Arcade_Phosphor_Marigold": {
+    "blender_name": "Arcade / Phosphor Marigold",
+    "base_color": [
+      1.0,
+      0.5299999713897705,
+      0.052000001072883606
+    ],
+    "roughness": 0.33000001311302185,
+    "metallic": 0.03999999910593033,
+    "emission_color": [
+      1.0,
+      0.5299999713897705,
+      0.052000001072883606
+    ],
+    "emission_strength": 2.700000047683716
+  },
+  "WH_Pier_Sky_0": {
+    "blender_name": "Pier / Sky 0",
+    "base_color": [
+      0.6800000071525574,
+      0.8199999928474426,
+      0.8100000023841858
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6800000071525574,
+      0.8199999928474426,
+      0.8100000023841858
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_1": {
+    "blender_name": "Pier / Sky 1",
+    "base_color": [
+      0.6237499713897705,
+      0.7799999713897705,
+      0.7987499833106995
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6237499713897705,
+      0.7799999713897705,
+      0.7987499833106995
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_2": {
+    "blender_name": "Pier / Sky 2",
+    "base_color": [
+      0.5674999952316284,
+      0.7400000095367432,
+      0.7875000238418579
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5674999952316284,
+      0.7400000095367432,
+      0.7875000238418579
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_3": {
+    "blender_name": "Pier / Sky 3",
+    "base_color": [
+      0.5112500190734863,
+      0.699999988079071,
+      0.7762500047683716
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5112500190734863,
+      0.699999988079071,
+      0.7762500047683716
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_4": {
+    "blender_name": "Pier / Sky 4",
+    "base_color": [
+      0.45500001311302185,
+      0.6600000262260437,
+      0.7649999856948853
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.45500001311302185,
+      0.6600000262260437,
+      0.7649999856948853
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_5": {
+    "blender_name": "Pier / Sky 5",
+    "base_color": [
+      0.3987500071525574,
+      0.6200000047683716,
+      0.7537500262260437
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3987500071525574,
+      0.6200000047683716,
+      0.7537500262260437
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_6": {
+    "blender_name": "Pier / Sky 6",
+    "base_color": [
+      0.3425000011920929,
+      0.5799999833106995,
+      0.7425000071525574
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3425000011920929,
+      0.5799999833106995,
+      0.7425000071525574
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_7": {
+    "blender_name": "Pier / Sky 7",
+    "base_color": [
+      0.2862499952316284,
+      0.5400000214576721,
+      0.731249988079071
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2862499952316284,
+      0.5400000214576721,
+      0.731249988079071
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Sky_8": {
+    "blender_name": "Pier / Sky 8",
+    "base_color": [
+      0.23000000417232513,
+      0.5,
+      0.7200000286102295
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.23000000417232513,
+      0.5,
+      0.7200000286102295
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Pier_Tidal_jade": {
+    "blender_name": "Pier / Tidal jade",
+    "base_color": [
+      0.0949999988079071,
+      0.3700000047683716,
+      0.41999998688697815
+    ],
+    "roughness": 0.2800000011920929,
+    "metallic": 0.2199999988079071,
+    "emission_color": [
+      0.0949999988079071,
+      0.3700000047683716,
+      0.41999998688697815
+    ],
+    "emission_strength": 0.1599999964237213
+  },
+  "WH_Pier_Weathered_timber_1": {
+    "blender_name": "Pier / Weathered timber 1",
+    "base_color": [
+      0.3799999952316284,
+      0.27900001406669617,
+      0.1899999976158142
+    ],
+    "roughness": 0.8299999833106995,
+    "metallic": 0.0,
+    "emission_color": [
+      0.3799999952316284,
+      0.27900001406669617,
+      0.1899999976158142
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Pier_Weathered_timber_2": {
+    "blender_name": "Pier / Weathered timber 2",
+    "base_color": [
+      0.30000001192092896,
+      0.21799999475479126,
+      0.1599999964237213
+    ],
+    "roughness": 0.8299999833106995,
+    "metallic": 0.0,
+    "emission_color": [
+      0.30000001192092896,
+      0.21799999475479126,
+      0.1599999964237213
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Pier_Weathered_timber_0": {
+    "blender_name": "Pier / Weathered timber 0",
+    "base_color": [
+      0.33000001311302185,
+      0.23999999463558197,
+      0.17000000178813934
+    ],
+    "roughness": 0.8299999833106995,
+    "metallic": 0.0,
+    "emission_color": [
+      0.33000001311302185,
+      0.23999999463558197,
+      0.17000000178813934
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Pier_Water_glimmer": {
+    "blender_name": "Pier / Water glimmer",
+    "base_color": [
+      0.5899999737739563,
+      0.75,
+      0.699999988079071
+    ],
+    "roughness": 0.3400000035762787,
+    "metallic": 0.25,
+    "emission_color": [
+      0.5899999737739563,
+      0.75,
+      0.699999988079071
+    ],
+    "emission_strength": 0.3700000047683716
+  },
+  "WH_Pier_Beacon_red": {
+    "blender_name": "Pier / Beacon red",
+    "base_color": [
+      0.6800000071525574,
+      0.10499999672174454,
+      0.07000000029802322
+    ],
+    "roughness": 0.550000011920929,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6800000071525574,
+      0.10499999672174454,
+      0.07000000029802322
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Pier_Pale_sailcloth": {
+    "blender_name": "Pier / Pale sailcloth",
+    "base_color": [
+      0.8999999761581421,
+      0.8799999952316284,
+      0.6899999976158142
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.8999999761581421,
+      0.8799999952316284,
+      0.6899999976158142
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Pier_Hull_navy": {
+    "blender_name": "Pier / Hull navy",
+    "base_color": [
+      0.05400000140070915,
+      0.11500000208616257,
+      0.16500000655651093
+    ],
+    "roughness": 0.4000000059604645,
+    "metallic": 0.20000000298023224,
+    "emission_color": [
+      0.05400000140070915,
+      0.11500000208616257,
+      0.16500000655651093
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Pier_Lantern_glass": {
+    "blender_name": "Pier / Lantern glass",
+    "base_color": [
+      0.9300000071525574,
+      0.7699999809265137,
+      0.4300000071525574
+    ],
+    "roughness": 0.30000001192092896,
+    "metallic": 0.20000000298023224,
+    "emission_color": [
+      0.9300000071525574,
+      0.7699999809265137,
+      0.4300000071525574
+    ],
+    "emission_strength": 0.8500000238418579
+  },
+  "WH_Listening_Smoked_oak": {
+    "blender_name": "Listening / Smoked oak",
+    "base_color": [
+      0.27000001072883606,
+      0.14800000190734863,
+      0.0729999989271164
+    ],
+    "roughness": 0.6399999856948853,
+    "metallic": 0.0,
+    "emission_color": [
+      0.27000001072883606,
+      0.14800000190734863,
+      0.0729999989271164
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Ebonised_timber": {
+    "blender_name": "Listening / Ebonised timber",
+    "base_color": [
+      0.03700000047683716,
+      0.03400000184774399,
+      0.03099999949336052
+    ],
+    "roughness": 0.5199999809265137,
+    "metallic": 0.0,
+    "emission_color": [
+      0.03700000047683716,
+      0.03400000184774399,
+      0.03099999949336052
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Record_spine_0": {
+    "blender_name": "Listening / Record spine 0",
+    "base_color": [
+      0.550000011920929,
+      0.25099998712539673,
+      0.13199999928474426
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.550000011920929,
+      0.25099998712539673,
+      0.13199999928474426
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Record_spine_4": {
+    "blender_name": "Listening / Record spine 4",
+    "base_color": [
+      0.20000000298023224,
+      0.23999999463558197,
+      0.25
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.20000000298023224,
+      0.23999999463558197,
+      0.25
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Record_spine_3": {
+    "blender_name": "Listening / Record spine 3",
+    "base_color": [
+      0.6299999952316284,
+      0.47999998927116394,
+      0.28999999165534973
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6299999952316284,
+      0.47999998927116394,
+      0.28999999165534973
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Record_spine_2": {
+    "blender_name": "Listening / Record spine 2",
+    "base_color": [
+      0.33000001311302185,
+      0.36000001430511475,
+      0.3400000035762787
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.33000001311302185,
+      0.36000001430511475,
+      0.3400000035762787
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Record_spine_1": {
+    "blender_name": "Listening / Record spine 1",
+    "base_color": [
+      0.5400000214576721,
+      0.5699999928474426,
+      0.46000000834465027
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.5400000214576721,
+      0.5699999928474426,
+      0.46000000834465027
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Record_spine_6": {
+    "blender_name": "Listening / Record spine 6",
+    "base_color": [
+      0.2800000011920929,
+      0.15199999511241913,
+      0.08299999684095383
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.2800000011920929,
+      0.15199999511241913,
+      0.08299999684095383
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Record_spine_5": {
+    "blender_name": "Listening / Record spine 5",
+    "base_color": [
+      0.6499999761581421,
+      0.5799999833106995,
+      0.4699999988079071
+    ],
+    "roughness": 0.6800000071525574,
+    "metallic": 0.0,
+    "emission_color": [
+      0.6499999761581421,
+      0.5799999833106995,
+      0.4699999988079071
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Brushed_brass": {
+    "blender_name": "Listening / Brushed brass",
+    "base_color": [
+      0.550000011920929,
+      0.36000001430511475,
+      0.1459999978542328
+    ],
+    "roughness": 0.36000001430511475,
+    "metallic": 0.7200000286102295,
+    "emission_color": [
+      0.550000011920929,
+      0.36000001430511475,
+      0.1459999978542328
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Paper_speaker_cone": {
+    "blender_name": "Listening / Paper speaker cone",
+    "base_color": [
+      0.0860000029206276,
+      0.07599999755620956,
+      0.06499999761581421
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.0860000029206276,
+      0.07599999755620956,
+      0.06499999761581421
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Listening_Amber_light": {
+    "blender_name": "Listening / Amber light",
+    "base_color": [
+      0.9800000190734863,
+      0.6100000143051147,
+      0.2800000011920929
+    ],
+    "roughness": 0.3799999952316284,
+    "metallic": 0.0,
+    "emission_color": [
+      0.9800000190734863,
+      0.6100000143051147,
+      0.2800000011920929
+    ],
+    "emission_strength": 1.7000000476837158
+  },
+  "WH_Observatory_Sky_0": {
+    "blender_name": "Observatory / Sky 0",
+    "base_color": [
+      0.07500000298023224,
+      0.10000000149011612,
+      0.19499999284744263
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.07500000298023224,
+      0.10000000149011612,
+      0.19499999284744263
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_1": {
+    "blender_name": "Observatory / Sky 1",
+    "base_color": [
+      0.06712500005960464,
+      0.09037499874830246,
+      0.18150000274181366
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.06712500005960464,
+      0.09037499874830246,
+      0.18150000274181366
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_2": {
+    "blender_name": "Observatory / Sky 2",
+    "base_color": [
+      0.05925000086426735,
+      0.0807500034570694,
+      0.1679999977350235
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.05925000086426735,
+      0.0807500034570694,
+      0.1679999977350235
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_3": {
+    "blender_name": "Observatory / Sky 3",
+    "base_color": [
+      0.051375001668930054,
+      0.07112500071525574,
+      0.15449999272823334
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.051375001668930054,
+      0.07112500071525574,
+      0.15449999272823334
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_4": {
+    "blender_name": "Observatory / Sky 4",
+    "base_color": [
+      0.04349999874830246,
+      0.061500001698732376,
+      0.14100000262260437
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.04349999874830246,
+      0.061500001698732376,
+      0.14100000262260437
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_5": {
+    "blender_name": "Observatory / Sky 5",
+    "base_color": [
+      0.035624999552965164,
+      0.051874998956918716,
+      0.1274999976158142
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.035624999552965164,
+      0.051874998956918716,
+      0.1274999976158142
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_6": {
+    "blender_name": "Observatory / Sky 6",
+    "base_color": [
+      0.02775000035762787,
+      0.042249999940395355,
+      0.11400000005960464
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.02775000035762787,
+      0.042249999940395355,
+      0.11400000005960464
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_7": {
+    "blender_name": "Observatory / Sky 7",
+    "base_color": [
+      0.019874999299645424,
+      0.032625000923871994,
+      0.10050000250339508
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.019874999299645424,
+      0.032625000923871994,
+      0.10050000250339508
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Sky_8": {
+    "blender_name": "Observatory / Sky 8",
+    "base_color": [
+      0.012000000104308128,
+      0.023000000044703484,
+      0.08699999749660492
+    ],
+    "roughness": 0.75,
+    "metallic": 0.0,
+    "emission_color": [
+      0.012000000104308128,
+      0.023000000044703484,
+      0.08699999749660492
+    ],
+    "emission_strength": 0.6499999761581421
+  },
+  "WH_Observatory_Slate_floor": {
+    "blender_name": "Observatory / Slate floor",
+    "base_color": [
+      0.07900000363588333,
+      0.10499999672174454,
+      0.14800000190734863
+    ],
+    "roughness": 0.49000000953674316,
+    "metallic": 0.1899999976158142,
+    "emission_color": [
+      0.07900000363588333,
+      0.10499999672174454,
+      0.14800000190734863
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Observatory_Starlight": {
+    "blender_name": "Observatory / Starlight",
+    "base_color": [
+      0.7599999904632568,
+      0.8500000238418579,
+      1.0
+    ],
+    "roughness": 0.38999998569488525,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7599999904632568,
+      0.8500000238418579,
+      1.0
+    ],
+    "emission_strength": 2.4000000953674316
+  },
+  "WH_Observatory_Moon": {
+    "blender_name": "Observatory / Moon",
+    "base_color": [
+      0.7200000286102295,
+      0.8100000023841858,
+      0.9200000166893005
+    ],
+    "roughness": 0.7599999904632568,
+    "metallic": 0.0,
+    "emission_color": [
+      0.7200000286102295,
+      0.8100000023841858,
+      0.9200000166893005
+    ],
+    "emission_strength": 0.7400000095367432
+  },
+  "WH_Observatory_Dome_steel": {
+    "blender_name": "Observatory / Dome steel",
+    "base_color": [
+      0.0989999994635582,
+      0.15199999511241913,
+      0.2240000069141388
+    ],
+    "roughness": 0.3400000035762787,
+    "metallic": 0.6499999761581421,
+    "emission_color": [
+      0.0989999994635582,
+      0.15199999511241913,
+      0.2240000069141388
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Observatory_Anodised_brass": {
+    "blender_name": "Observatory / Anodised brass",
+    "base_color": [
+      0.5400000214576721,
+      0.38999998569488525,
+      0.1940000057220459
+    ],
+    "roughness": 0.30000001192092896,
+    "metallic": 0.7400000095367432,
+    "emission_color": [
+      0.5400000214576721,
+      0.38999998569488525,
+      0.1940000057220459
+    ],
+    "emission_strength": 0.0
+  },
+  "WH_Observatory_Telescope_enamel": {
+    "blender_name": "Observatory / Telescope enamel",
+    "base_color": [
+      0.11999999731779099,
+      0.25,
+      0.4300000071525574
+    ],
+    "roughness": 0.3499999940395355,
+    "metallic": 0.46000000834465027,
+    "emission_color": [
+      0.11999999731779099,
+      0.25,
+      0.4300000071525574
+    ],
+    "emission_strength": 0.0
+  }
+}

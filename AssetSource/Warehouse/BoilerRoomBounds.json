@@ -1,0 +1,32 @@
+{
+  "VenueBoilerRoom": {
+    "bounds_min": [
+      -12.0,
+      -9.0,
+      -0.14500001072883606
+    ],
+    "bounds_max": [
+      12.0,
+      9.0,
+      6.025000095367432
+    ],
+    "materials": [
+      "WH_BoilerRoom_Dark_stage_deck",
+      "WH_BoilerRoom_Stage_void",
+      "WH_BoilerRoom_Charcoal_side_wall",
+      "WH_BoilerRoom_Brushed_scaffold_tube",
+      "WH_BoilerRoom_Forged_couplers",
+      "WH_BoilerRoom_Dark_zinc_brace",
+      "WH_BoilerRoom_Fixture_body",
+      "WH_BoilerRoom_Black_release_print",
+      "WH_BoilerRoom_Warm_white_LED_tubing",
+      "WH_BoilerRoom_Power_and_safety_cables",
+      "WH_BoilerRoom_Cobalt_diffuser",
+      "WH_BoilerRoom_Amber_PAR_lens",
+      "WH_BoilerRoom_Tungsten_lamp_core",
+      "WH_BoilerRoom_Oxidised_amber_reflector",
+      "WH_BoilerRoom_Blue_uplight_lens"
+    ],
+    "polygons": 24488
+  }
+}

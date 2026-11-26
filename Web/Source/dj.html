@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#11171f"><link rel="icon" href="data:,">
+  <title>Dot · Afterhours</title>
+  <style>{{STYLE}}</style>
+</head>
+<body>
+<main id="studio" class="studio" aria-label="Dot Afterhours">
+    <section id="stage" class="stage" aria-label="Live Unreal stage">
+      <div id="video"></div>
+      <div class="stage-top"><span id="stream-state" role="status">Connecting to Unreal</span>
+        <div class="stage-actions">
+          <button id="stream-sound" type="button" title="Hear stream" aria-label="Hear stream" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4"/><path class="sound-waves" d="M16 9a4 4 0 0 1 0 6m2-9a8 8 0 0 1 0 12"/></svg></button>
+          <button id="talk-to-dot" type="button" title="Talk to Dot" aria-label="Talk to Dot" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5.5 11v1a6.5 6.5 0 0 0 13 0v-1M12 18.5v3m-3 0h6"/></svg></button>
+          <button id="activity-toggle" type="button" title="Live DJ activity" aria-label="Live DJ activity" popovertarget="dj-activity"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></button>
+          <button id="booth-controls" type="button" title="Booth controls" aria-label="Booth controls" aria-haspopup="dialog" aria-controls="booth-panel"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16M8 4v4m8 2v4m-6 2v4"/></svg></button>
+          <button id="cinematic" type="button" title="Follow Dot with cinematic cameras" aria-label="Cinematic camera" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="m10 9 5 3-5 3z"/></svg></button>
+          <button id="expand" type="button" title="Full screen" aria-label="Full screen"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="expand-shape" d="M8 4H4v4m12-4h4v4m0 8v4h-4m-12-4v4h4"/><path class="contract-shape" d="M4 8h4V4m12 4h-4V4m4 12h-4v4m-12-4h4v4"/></svg></button>
+        </div></div>
+      <section id="dj-activity" class="activity-panel" popover aria-label="DJ activity">
+        <div class="activity-current" role="status" aria-atomic="true">
+          <h2 id="activity-status">Connecting to Afterhours</h2>
+          <p id="activity-detail" class="activity-detail" hidden></p>
+        </div>
+        <button class="close-booth activity-close" type="button" aria-label="Close DJ activity" popovertarget="dj-activity" popovertargetaction="hide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12m0-12L6 18"/></svg></button>
+      </section>
+      <div id="voice-notice" class="voice-notice" hidden><span id="voice-status" role="status"></span><button id="voice-hear" type="button" hidden>Hear Dot</button></div>
+      <button id="stream-play" class="stream-play" type="button" hidden>Start video</button>
+      <div class="stage-bottom">
+        <div id="now-playing" class="now-playing" hidden>
+          <div id="record-stage" class="record-stage" aria-hidden="true"></div>
+          <div id="now-copy" class="now-copy">
+            <div class="track-copy" role="status"><strong id="now-title"></strong><span id="now-artist"></span></div>
+            <div id="now-timing" class="now-timing" hidden>
+              <progress id="now-progress" max="1" aria-label="Track progress"></progress>
+              <span id="now-time" aria-label="Track time"></span>
+            </div>
+            <div id="now-next" class="now-next" hidden>
+              <span class="now-next-label">Next</span>
+              <span id="now-next-track" class="now-next-track"></span>
+              <span id="now-transition" class="now-transition" hidden></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <dialog id="booth-panel" class="booth-panel" aria-labelledby="booth-panel-title">
+    <header class="panel-top"><h1 id="booth-panel-title">Booth controls</h1>
+      <button id="close-booth" class="close-booth" type="button" title="Close booth controls" aria-label="Close booth controls" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12m0-12L6 18"/></svg></button>
+    </header>
+    <div class="panel-content">
+      <section class="playback" aria-label="Playback controls">
+      <div class="title"><h2>Playback</h2><p id="message" role="status">Connecting to Afterhours</p></div>
+      <span class="source">Afterhours · Beatport <output id="bpm">—</output></span>
+      <div class="actions"><button id="transport" type="button" disabled>Start set</button><button id="mix" type="button" disabled>Mix now</button></div>
+      <div class="actions"><button id="native-listen" type="button" aria-pressed="false">Hear stream</button></div>
+      <div class="settings">
+        <label>Set pacing <select id="set-pacing">
+          <option value="standard">Measured mixes</option>
+          <option value="15">Quick set · 15 s per track</option>
+          <option value="20">Quick set · 20 s per track</option>
+          <option value="30">Quick set · 30 s per track</option>
+          <option value="blend-15">15 s crossfades</option>
+          <option value="blend-20">20 s crossfades</option>
+          <option value="blend-30">30 s crossfades</option>
+        </select></label>
+        <label>Scene <select id="venue">
+          <option value="0">Warehouse</option>
+          <option value="1">Sundown Festival</option>
+          <option value="2">Ultraviolet Nightclub</option>
+          <option value="3">Boiler Room</option>
+          <option value="4">City Rooftop</option>
+          <option value="5">Desert Outpost</option>
+          <option value="6">Neon Arcade</option>
+          <option value="7">Ocean Pier</option>
+          <option value="8">Listening Room</option>
+          <option value="9">Observatory</option>
+          <option value="10">The EndUp · San Francisco</option>
+          <option value="11">Tunnel · New York City</option>
+          <option value="12">Public Works · San Francisco</option>
+          <option value="13">Golden Gate Waterfront · San Francisco</option>
+          <option value="14">Downtown Rooftop · Los Angeles</option>
+          <option value="15">Rose Bowl · Pasadena</option>
+          <option value="20">Daft Punk Pyramid · Coachella / Alive</option>
+          <option value="16">Studio · Charcoal</option>
+          <option value="17">Studio · Ivory</option>
+          <option value="18">Studio · Pastel Lilac</option>
+          <option value="19">Studio · Pastel Mint</option>
+        </select></label>
+        <label>Now playing in wide view<input id="native-hud" type="checkbox" checked></label>
+        <label>Show record crates<input id="show-crates" type="checkbox" checked></label>
+        <label>Show table<input id="show-table" type="checkbox" checked></label>
+        <label>Headphones<input id="headphones" type="checkbox" checked></label>
+      </div>
+      </section>
+      <section class="queue-panel" aria-labelledby="queue-title">
+        <header><h2 id="queue-title">Up next</h2><span id="queue-count"></span></header>
+        <ol id="queue-list"></ol>
+        <p id="queue-empty">Queue records from the crate.</p>
+      </section>
+  <section class="library">
+    <header><h2>Record crate</h2></header>
+    <form id="native-search" class="crate-search">
+      <label for="catalog-query">Search the selected VirtualDJ crate</label>
+      <div><input id="catalog-query" type="search" maxlength="120" placeholder="Track or artist" required>
+      <button type="submit">Search</button></div>
+    </form>
+    <div id="tracks"></div>
+  </section>
+    </div>
+  </dialog>
+</main>
+<script>{{SCRIPT}}</script>
+</body>
+</html>
