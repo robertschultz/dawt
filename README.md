@@ -1,6 +1,6 @@
-![Dawt behind four record crates in the Warehouse scene](docs/images/dawt-warehouse.jpg)
+![Lowercase dawt wordmark beside Dot on white](docs/images/dawt-white.png)
 
-# Dawt
+# dawt
 
 Dawt is a DJ character and browser booth for [Afterhours](https://github.com/robertschultz/afterhours).
 Unreal Engine renders the stage and Dawt moves to the playing deck’s beat grid.
