@@ -1,4 +1,4 @@
-![Lowercase dawt wordmark beside Dot on white](docs/images/dawt-white.png)
+![dawt — A real-time DJ character and browser booth](docs/images/dawt-white.png)
 
 # dawt
 
