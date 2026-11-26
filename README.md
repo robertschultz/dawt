@@ -1,4 +1,8 @@
-![dawt — A real-time DJ character and browser booth](docs/images/dawt-white.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/dawt-cover-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/images/dawt-cover-light.png">
+  <img alt="dawt — A real-time DJ character and browser booth" src="docs/images/dawt-cover-light.png">
+</picture>
 
 # dawt
 
