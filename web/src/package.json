@@ -1,7 +1,7 @@
 {
   "name": "dawt-web",
   "private": true,
-  "scripts": {"build": "node build.mjs"},
+  "scripts": {"build": "node build.mjs", "test": "node --test"},
   "dependencies": {
     "@epicgames-ps/lib-pixelstreamingfrontend-ue5.8": "0.1.4",
     "@epicgames-ps/lib-pixelstreamingsignalling-ue5.8": "0.2.1"
