@@ -463,7 +463,7 @@ function tick() {
   const upcoming=next?.id!==frame.currentRecord ? next : null;
   const suggested=upcoming||staged;
   const continuing=nativeState?.rolling?.status;
-  const waiting=frame.mixing||Boolean(continuing);
+  const waiting=frame.mixing||Boolean(continuing)||Boolean(frame.playing&&nativeState?.active);
   const nextLabel=[suggested?.title,suggested?.artist].filter(Boolean).join(' · ')||
     (continuing==='held'?'No compatible track found':continuing?'Finding a track':'End of queue');
   by('now-next').hidden=!suggested?.title&&!waiting;
