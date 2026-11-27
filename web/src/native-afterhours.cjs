@@ -1,30 +1,51 @@
 const {randomUUID}=require('node:crypto');
+const {request:httpRequest}=require('node:http');
 const port=Number(process.env.DOT_AFTERHOURS_PORT||8765);
 if (!Number.isInteger(port)||port<1024||port>65535) throw Error('Invalid Afterhours engine port');
-const base=`http://127.0.0.1:${port}`;
 const MAX_RESPONSE=3_000_000;
 let statusRequest;
 let activityRequest;
 let mutation=false;
 
+function engineResponse(path,body,token,timeout) {
+  const payload=body?Buffer.from(JSON.stringify(body)):null;
+  const headers={
+    ...(token?{'X-DJ-Token':token}:{}),
+    ...(payload?{'Content-Type':'application/json','Content-Length':payload.length}:{})
+  };
+  // Keep loopback traffic off the Undici DSCP socket path on macOS.
+  return new Promise((resolve,reject)=>{
+    const outgoing=httpRequest({hostname:'127.0.0.1',port,path,headers,method:payload?'POST':'GET',
+      signal:AbortSignal.timeout(timeout)},resolve);
+    outgoing.once('error',reject);
+    outgoing.end(payload);
+  });
+}
+
+async function readResponse(response,limit) {
+  const chunks=[];
+  let length=0;
+  for await (const chunk of response) {
+    length+=chunk.length;
+    if(length>limit) throw Error('Afterhours returned an oversized response.');
+    chunks.push(chunk);
+  }
+  return Buffer.concat(chunks,length);
+}
+
 async function request(path,body,token,timeout=body?6500:1800) {
   let response;
   try {
-    response=await fetch(base+path,{redirect:'error',signal:AbortSignal.timeout(timeout),
-      headers:{...(token?{'X-DJ-Token':token}:{}),...(body?{'Content-Type':'application/json'}:{})},
-      ...(body?{method:'POST',body:JSON.stringify(body)}:{})});
+    response=await engineResponse(path,body,token,timeout);
+    if(response.statusCode>=300&&response.statusCode<400) {
+      response.destroy();
+      throw Error('Afterhours returned an unexpected redirect.');
+    }
   } catch {
     throw Object.assign(Error('Afterhours engine did not respond.'),{status:503});
   }
-  const chunks=[];
-  let length=0;
-  for await (const chunk of response.body) {
-    length+=chunk.length;
-    if(length>MAX_RESPONSE) throw Error('Afterhours returned an oversized response.');
-    chunks.push(chunk);
-  }
-  const result=JSON.parse(Buffer.concat(chunks,length).toString());
-  if(!response.ok)throw Object.assign(Error(result.error||'Afterhours declined the request.'),{status:response.status});
+  const result=JSON.parse((await readResponse(response,MAX_RESPONSE)).toString());
+  if(response.statusCode>=400)throw Object.assign(Error(result.error||'Afterhours declined the request.'),{status:response.statusCode});
   return result;
 }
 const trackId=id=>typeof id==='string'&&/^virtualdj:[a-f0-9]{64}$/.test(id);

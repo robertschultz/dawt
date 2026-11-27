@@ -9,7 +9,7 @@ const records = ['a', 'b', 'c', 'd'].map((letter, index) => ({
 }));
 const ids = records.map(track => track.id);
 const token = 'local-fixture-token';
-let server, adapter, session, program, agent, voice, calls, rejectAction;
+let server, adapter, session, program, agent, voice, calls, rejectAction, controlOverride;
 
 before(async () => {
   server = createServer(async (req, res) => {
@@ -24,7 +24,8 @@ before(async () => {
     } else if (rejectAction && body?.action === rejectAction) {
       res.writeHead(409);
       result = { error: 'Fixture transport declined.' };
-    } else if (req.url === '/api/config') result = { service: 'afterhours-music', token };
+    } else if (req.url === '/api/control-state' && controlOverride) return controlOverride(res);
+    else if (req.url === '/api/config') result = { service: 'afterhours-music', token };
     else if (req.url === '/api/control-state') result = { program, telemetry: session.telemetry };
     else if (req.url === '/api/set-session' || req.url === '/api/library') result = session;
     else if (req.url === '/api/voice') result = voice;
@@ -53,9 +54,17 @@ beforeEach(() => {
   voice = { configured: true, model: 'gpt-live-1.1', voice: 'gleam', status: 'idle' };
   calls = [];
   rejectAction = null;
+  controlOverride = null;
 });
 
 const requests = () => calls.map(([path, body]) => [path, body]);
+
+test('loopback control reads reject redirects and oversized responses', async () => {
+  controlOverride = res => res.writeHead(307, { Location: '/api/config' }).end();
+  await assert.rejects(adapter.getState(), { status: 503 });
+  controlOverride = res => res.end('x'.repeat(3_000_001));
+  await assert.rejects(adapter.getState(), /oversized response/);
+});
 
 test('booth starts measured, quick, and short blend sets through one Afterhours path', async t => {
   for (const scenario of [
